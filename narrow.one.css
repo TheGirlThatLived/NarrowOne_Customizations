@@ -32,35 +32,25 @@ h3.dialogTitle.blueNight {
 
 /* Chat Window */
 .chat-log-container {
-  font-size: 16pt;
+  font-size: 22pt;
   padding:0px, 0px, 0px, 0px;
-  width:800px;
-  height:800px;
 }
 .chat-container.wrinkledPaper.up {
   padding:0px, 0px, 0px, 0px;
-  width:800px;
-  height:max-content;
   background:none;
 }
 .chat-container{
   padding:0px, 0px, 0px, 0px;
-  width:800px;
-  height:max-content;
   background:none;
 }
 .chat-message-container {
   padding:0px, 0px, 0px, 0px;
-  width:800px;
-  height:800px;
 }
 .chat-message-content {
   padding:0px, 0px, 0px, 0px;
-  width:800px;
-  height:800px;
 }
 .chat-input {
- font-size: 16pt;
+ font-size: 19pt;
 }
 input.dialog-text-input.wrinkledPaper.chat-input {
   background:none;
