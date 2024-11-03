@@ -1,5 +1,6 @@
 /* Replace most of the fonts */
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
 *:not(pre, pre *, code, .far, .fa, [class*="fa-"], .glyphicon, [class*="vjs-"], .fab, .fa-github, .fas, .material-icons, .icofont, .typcn, mu, [class*="mu-"], .glyphicon, [class*="icon"], .gog-icons, .google-material-icons) {
     font-family: Ubuntu !important;
     font-weight: 500;
@@ -7,13 +8,17 @@
 .touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
 
 /* Animations declared */
-@keyframes rulerSnap {
+@keyframes rulerSnap{
   50% {transform: rotate(20deg);}
 }
-@keyframes wave {
+@keyframes wave{
   0%, 100% {transform: translateY(0);}
   50% {transform: translateY(-10px);}
 }
+@keyframes bleed{
+
+}
+
 /* Class Select Icons */
 div.class-selection-image-background.wrinkledPaper {
   /*background-image: url("https://commons.wikimedia.org/wiki/File:Sheba1.JPG");*/
@@ -24,23 +29,41 @@ h3.dialogTitle.blueNight {
   text-transform: capitalize;
   animation: wave 1s infinite;
 }
+
 /* Chat Window */
 .chat-log-container {
- font-size: 16pt;
-    
+  font-size: 16pt;
+  padding:0px, 0px, 0px, 0px;
+  width:800px;
+  height:800px;
 }
-div.chat-container.wrinkledPaper.up {
-  width:1000px;
+.chat-container.wrinkledPaper.up {
+  padding:0px, 0px, 0px, 0px;
+  width:800px;
   height:max-content;
-  maxlength:1000px;
   background:none;
+}
+.chat-container{
+  padding:0px, 0px, 0px, 0px;
+  width:800px;
+  height:max-content;
+  background:none;
+}
+.chat-message-container {
+  padding:0px, 0px, 0px, 0px;
+  width:800px;
+  height:800px;
+}
+.chat-message-content {
+  padding:0px, 0px, 0px, 0px;
+  width:800px;
+  height:800px;
 }
 .chat-input {
  font-size: 16pt;
 }
 input.dialog-text-input.wrinkledPaper.chat-input {
   background:none;
-  maxlength:1000px;
 }
 .chat-message-name {
   font-size: 12pt;
@@ -49,15 +72,18 @@ input::placeholder{
     font-family: Ubuntu !important;
     font-size: 16px;
     text-transform: capitalize;
-}
+  }
 
 /* Menu Texts */
-div.main-menu-button-text.whiteBigText.blueNight {text-transform: capitalize;}
-button.dialog-button.blueNight.wrinkledPaper {text-transform: capitalize;}
-h2.dialogTitle.blueNight {text-transform: capitalize;}
-div.mainInfoText {text-transform: capitalize;}
-h2.paged-view-page-header-title {text-transform: capitalize;}
-select.dialog-select-input.blueNight {text-transform: capitalize;}
+div.main-menu-button-text.whiteBigText.blueNight{text-transform: capitalize;}
+button.dialog-button.blueNight.wrinkledPaper {
+  text-transform: capitalize;
+}
+h2.dialogTitle.blueNight{text-transform: capitalize;}
+div.mainInfoText{text-transform: capitalize;}
+h2.paged-view-page-header-title{text-transform: capitalize;}
+
+select.dialog-select-input.blueNight{text-transform: capitalize;}
 div.main-menu-username.whiteBigText {
  font-weight: 800;
  background-image: linear-gradient(to right, rgba(200,0,200,1),rgba(150,0,150,0.4), rgba(0,0,0,0));
