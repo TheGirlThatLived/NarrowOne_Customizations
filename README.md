@@ -2,7 +2,11 @@ Thanks to games like Narrow One being written as a HTML5 games, using "CSS Overr
 
 **Contributors:** Xeltalliv; Blazyst; Razgriz; PING 18
 
-Useful resources:
+###Preview:
+![Screenshot_20241103_201256](https://github.com/user-attachments/assets/24340a2f-28d3-41bf-90b3-3f055de37329)
+![Screenshot_20241103_201950](https://github.com/user-attachments/assets/4c3ac612-73de-45a9-93a8-a2daa11be944)
+
+###Useful resources:
 
 CSS Tutorial: https://www.w3schools.com/css/default.asp
 
