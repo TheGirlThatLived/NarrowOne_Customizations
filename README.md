@@ -6,7 +6,7 @@ Useful resources:
 
 CSS Tutorial: https://www.w3schools.com/css/default.asp
 
-What you do is you hover mouse over page elements while "inspect element" tool is enabled - that's how you find their names, to later reference in your external CSS stylesheet and list all effects you wanna add.
+What you do is you hover mouse over page elements while "inspect element" tool is enabled - that's how you find their names, to later reference in your external CSS stylesheet and list all effects you wanna add. To inspect elements effectively in the game, you might want to be able to release your mouse without menu screen popping up. For that I provide a Tampermonkey (another addon to execute provided scripts on websites) script in this repository, by Xeltalliv suggestion and fixes, and Copilot's writing.
 
 If you're an audio learner, here are some videos:
 
