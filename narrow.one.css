@@ -1,11 +1,12 @@
 /* Replace most of the fonts */
+/* OPTIONAL: In this section, replace code lines with their commented-out counterparts next to them, to use Dyslexia-friendly font */
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=OpenDyslexic&display=swap);
 *:not(pre, pre *, code, .far, .fa, [class*="fa-"], .glyphicon, [class*="vjs-"], .fab, .fa-github, .fas, .material-icons, .icofont, .typcn, mu, [class*="mu-"], .glyphicon, [class*="icon"], .gog-icons, .google-material-icons) {
-    font-family: Ubuntu !important;
-    font-weight: 500;
+    font-family: Ubuntu !important; /* font-family: OpenDyslexic !important; */
+    font-weight: 500; /* font-weight: 700; */
+    text-shadow: 0px 0px 5px black;
 }
-.touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
 
 /* Animations declared */
 @keyframes rulerSnap{
@@ -32,8 +33,11 @@ h3.dialogTitle.blueNight {
 
 /* Chat Window */
 .chat-log-container {
-  font-size: 22pt;
+  font-size: 25pt;
   padding:0px, 0px, 0px, 0px;
+  overflow: hidden;
+  max-height: min(800px, 50vh);
+  max-width: min(800px, 50vw);
 }
 .chat-container.wrinkledPaper.up {
   padding:0px, 0px, 0px, 0px;
@@ -97,3 +101,4 @@ div.main-menu-username.whiteBigText {
   display:none;
   background: none;
 }
+.touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
