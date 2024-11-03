@@ -27,11 +27,7 @@ h3.dialogTitle.blueNight {
 /* Chat Window */
 .chat-log-container {
  font-size: 16pt;
-  margin-top: 100%;
-  margin-right: 100%;
-  margin-bottom: 100%;
-  margin-left: 100%;
-  
+    
 }
 div.chat-container.wrinkledPaper.up {
   width:1000px;
