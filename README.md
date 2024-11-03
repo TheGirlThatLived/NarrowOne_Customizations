@@ -1,6 +1,6 @@
 Thanks to games like Narrow One being written as a HTML5 games, using "CSS Override" addons (my pick: Stylebot on Chrome Store - featured and top rated), you can customize the looks of it, with all the power CSS has in hand.
 
-**Contributors:** Xeltalliv; Blazyst; Razrgriz; PING 18 /n
+**Contributors:** Xeltalliv; Blazyst; Razgriz; PING 18
 
 Useful resources:
 
