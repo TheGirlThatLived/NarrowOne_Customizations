@@ -51,7 +51,7 @@
                     untranslatedButton.textContent = 'Shitting Club';
                     break;
                     // Match dialogs
-                case 'Are You Sure?':
+                case 'Are you sure?':
                     untranslatedButton.textContent = 'Shat yourself?';
                     break;
                 case 'You will not earn any coins from this match.':
