@@ -19,7 +19,7 @@
             translatedCoinCount.setAttribute('data-text-content', 'Shitload');
             translatedCoinCount.textContent = 'Shitload';
         }
-        const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText');
+        const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText, .stat-class-tooltip');
         translatedButtons.forEach(untranslatedButton => {
             switch(untranslatedButton.textContent.trim()) {
                 case 'Click to join':
@@ -100,9 +100,12 @@
                 case 'Start':
                     untranslatedButton.textContent = 'Shat';
                     break;
-                    // Shop
+                    // Loadouts
                 case 'Presets':
                     untranslatedButton.textContent = 'Shitsets';
+                    break;
+                case 'Preset':
+                    untranslatedButton.textContent = 'Shitset';
                     break;
                 case 'Scout':
                     untranslatedButton.textContent = 'Diarrhea';
@@ -121,6 +124,73 @@
                     break;
                 case 'Defender':
                     untranslatedButton.textContent = 'Fat Shitter';
+                    break;
+                    // Shop
+                case 'Looks':
+                    untranslatedButton.textContent = 'Shitlooks';
+                    break;
+                case 'Gear':
+                    untranslatedButton.textContent = 'Gówno';
+                    break;
+                case 'Bow':
+                    untranslatedButton.textContent = 'Bowel';
+                    break;
+                case 'Arrow':
+                    untranslatedButton.textContent = 'Poop';
+                    break;
+                case 'Melee':
+                    untranslatedButton.textContent = 'Toilet Rack';
+                    break;
+                case 'Rewarded':
+                    untranslatedButton.textContent = 'Cheapstakes';
+                    break;
+                    // Shop: Looks
+                case 'Skin color':
+                    untranslatedButton.textContent = 'Shit Shade';
+                    break;
+                case 'Hair':
+                    untranslatedButton.textContent = 'Bird poop';
+                    break;
+                case 'Eyebrows':
+                    untranslatedButton.textContent = '🤨';
+                    break;
+                case 'Eyes':
+                    untranslatedButton.textContent = 'Shitsight';
+                    break;
+                case 'Beard':
+                    untranslatedButton.textContent = 'Pubic hair';
+                    break;
+                case 'Tattoos':
+                    untranslatedButton.textContent = 'Gang affiliation';
+                    break;
+                    // Shop: Gear
+                case 'Head':
+                    untranslatedButton.textContent = 'Shithead';
+                    break;
+                case 'Torso':
+                    untranslatedButton.textContent = 'Shat Chest';
+                    break;
+                case 'Arms':
+                    untranslatedButton.textContent = 'Wipers';
+                    break;
+                case 'Legs':
+                    untranslatedButton.textContent = 'Change shat pants';
+                    break;
+                case 'Quiver':
+                    untranslatedButton.textContent = 'Shit basket';
+                    break;
+                    // Shop: Stats
+                case 'Movement Speed':
+                    untranslatedButton.textContent = '(SPD) Toilet Rush'; // Error
+                    break;
+                case 'Damage Protection':
+                    untranslatedButton.textContent = '(ARM) Turd Weight'; // Error
+                    break;
+                case 'Health Regen Speed':
+                    untranslatedButton.textContent = '(REG) Anus Stretchness'; // Error
+                    break;
+                case 'bloodlust':
+                    untranslatedButton.textContent = 'Coprophilia'; // Error
                     break;
             }
         });
