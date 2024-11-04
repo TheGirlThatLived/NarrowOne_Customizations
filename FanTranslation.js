@@ -39,7 +39,7 @@
                     untranslatedButton.textContent = 'Shitstains';
                     break;
                 case 'Full Screen':
-                    untranslatedButton.textContent = 'Full Focus Shitting';
+                    untranslatedButton.textContent = 'Gloryhole';
                     break;
                 case 'Install':
                     untranslatedButton.textContent = 'Shit Yourself';
