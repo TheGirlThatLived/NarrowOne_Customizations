@@ -101,6 +101,9 @@
                     untranslatedButton.textContent = 'Shat';
                     break;
                     // Shop
+                case 'Presets':
+                    untranslatedButton.textContent = 'Shitsets';
+                    break;
                 case 'Scout':
                     untranslatedButton.textContent = 'Diarrhea';
                     break;
