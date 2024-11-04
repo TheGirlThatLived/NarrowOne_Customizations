@@ -14,7 +14,7 @@
     'use strict';
     // Function to replace the text
     function translateButtonText() {
-        const translatedCoinCount = document.querySelector('data-text-content');
+        const translatedCoinCount = document.querySelector('.coin-count-text.blueNight');
         if (translatedCoinCount) {
             translatedCoinCount.setAttribute('data-text-content', 'Shitload');
             translatedCoinCount.textContent = 'Shitload';
