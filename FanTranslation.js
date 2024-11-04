@@ -19,12 +19,13 @@
             translatedCoinCount.setAttribute('data-text-content', 'Shitload');
             translatedCoinCount.textContent = 'Shitload';
         }
-        const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight');
+        const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText');
         translatedButtons.forEach(untranslatedButton => {
             switch(untranslatedButton.textContent.trim()) {
                 case 'Click to Join':
-                    untranslatedButton.textContent = 'Shit in Play';
+                    untranslatedButton.textContent = 'Shit in Play'; // Error
                     break;
+                    // Main Menu buttons
                 case 'Settings':
                     untranslatedButton.textContent = 'Shittings';
                     break;
@@ -43,14 +44,40 @@
                 case 'Install':
                     untranslatedButton.textContent = 'Shit Yourself';
                     break;
+                case 'Exit Round':
+                    untranslatedButton.textContent = 'Leaving Shithouse';
+                    break;
                 case 'Join our Discord':
                     untranslatedButton.textContent = 'Shitting Club';
                     break;
+                    // Match dialogs
+                case 'Are You Sure?':
+                    untranslatedButton.textContent = 'Shat yourself?'; // Error
+                    break;
+                case 'You will not earn any coing from this match.':
+                    untranslatedButton.textContent = 'Pissed your pants maybe?'; // Error
+                    break;
+                case 'Exit':
+                    untranslatedButton.textContent = 'Close the lid';
+                    break;
+                case 'Stay in Game':
+                    untranslatedButton.textContent = 'Imma fart some more'; // Error
+                    break;
+                case 'Connection Closed':
+                    untranslatedButton.textContent = 'Toilet Flushed'; // Error
+                    break;
+                case 'You have been kicked for being afk for too long.':
+                    untranslatedButton.textContent = 'Janitor kicked you out for clogging the pipe.';
+                    break;
+                case 'Ok':
+                    untranslatedButton.textContent = 'Pants Pullup'; // Error
+                    break;
+                    // Squads
                 case 'Invite Someone':
-                    untranslatedButton.textContent = 'Pass Toilet Paper';
+                    untranslatedButton.textContent = 'Pass Toilet Paper'; // Error
                     break;
                 case 'Join Existing Squad':
-                    untranslatedButton.textContent = 'Public Toilet';
+                    untranslatedButton.textContent = 'Public Toilet'; // Error
                     break;
                 case 'Ready':
                     untranslatedButton.textContent = 'Shyt';
@@ -58,6 +85,7 @@
                 case 'Start':
                     untranslatedButton.textContent = 'Shat';
                     break;
+                    // Shop
                 case 'Scout':
                     untranslatedButton.textContent = 'Diarrhea';
                     break;
