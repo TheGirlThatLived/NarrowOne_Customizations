@@ -41,6 +41,18 @@
                 case 'Full Screen':
                     untranslatedButton.textContent = 'Gloryhole';
                     break;
+                case 'Enable Auto Full Screen?':
+                    untranslatedButton.textContent = 'Wanna drill it?';
+                    break;
+                case 'Do you automatically want to enter full screen when joining a game? (This can be disabled later in settings)':
+                    untranslatedButton.textContent = 'Would you be comfortable shitting next to someone, two of you connected by a hole in thin wall?';
+                    break;
+                case 'Heck Yeah!':
+                    untranslatedButton.textContent = 'Competitive Shitsession!';
+                    break;
+                case 'No Thanks':
+                    untranslatedButton.textContent = 'Poop alone :-(';
+                    break;
                 case 'Install':
                     untranslatedButton.textContent = 'Shit Yourself';
                     break;
