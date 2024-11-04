@@ -22,8 +22,8 @@
         const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText');
         translatedButtons.forEach(untranslatedButton => {
             switch(untranslatedButton.textContent.trim()) {
-                case 'Click to Join':
-                    untranslatedButton.textContent = 'Shit in Play'; // Error
+                case 'Click to join':
+                    untranslatedButton.textContent = 'Shit in Play';
                     break;
                     // Main Menu buttons
                 case 'Settings':
@@ -52,32 +52,35 @@
                     break;
                     // Match dialogs
                 case 'Are You Sure?':
-                    untranslatedButton.textContent = 'Shat yourself?'; // Error
+                    untranslatedButton.textContent = 'Shat yourself?';
                     break;
-                case 'You will not earn any coing from this match.':
-                    untranslatedButton.textContent = 'Pissed your pants maybe?'; // Error
+                case 'You will not earn any coins from this match.':
+                    untranslatedButton.textContent = 'Pissed your pants maybe?';
+                    break;
+                case 'You are the squad leader so all members will exit this match too. No one will earn any coins from this match.':
+                    untranslatedButton.textContent = 'Pissed your pants maybe in front of the whole squatters class?';
                     break;
                 case 'Exit':
                     untranslatedButton.textContent = 'Close the lid';
                     break;
-                case 'Stay in Game':
-                    untranslatedButton.textContent = 'Imma fart some more'; // Error
+                case 'stay in game':
+                    untranslatedButton.textContent = 'Imma fart some more';
                     break;
-                case 'Connection Closed':
-                    untranslatedButton.textContent = 'Toilet Flushed'; // Error
+                case 'Connection closed':
+                    untranslatedButton.textContent = 'Toilet Flushed';
                     break;
                 case 'You have been kicked for being afk for too long.':
                     untranslatedButton.textContent = 'Janitor kicked you out for clogging the pipe.';
                     break;
-                case 'Ok':
-                    untranslatedButton.textContent = 'Pants Pullup'; // Error
+                case 'ok':
+                    untranslatedButton.textContent = 'Pants Pullup';
                     break;
                     // Squads
-                case 'Invite Someone':
-                    untranslatedButton.textContent = 'Pass Toilet Paper'; // Error
+                case 'Invite someone':
+                    untranslatedButton.textContent = 'Pass Toilet Paper';
                     break;
-                case 'Join Existing Squad':
-                    untranslatedButton.textContent = 'Public Toilet'; // Error
+                case 'Join existing squad':
+                    untranslatedButton.textContent = 'Public Toilet';
                     break;
                 case 'Ready':
                     untranslatedButton.textContent = 'Shyt';
