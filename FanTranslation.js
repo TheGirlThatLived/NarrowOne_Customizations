@@ -87,7 +87,21 @@
                 case 'ok':
                     untranslatedButton.textContent = 'Pants Pullup';
                     break;
-                    // Squads
+                case 'Squad not found':
+                    untranslatedButton.textContent = 'Toilet Demolished';
+                    break;
+                case 'You are currently in a game':
+                    untranslatedButton.textContent = 'Toilet seat taken';
+                    break;
+                case 'Do you want to leave the current match?':
+                    untranslatedButton.textContent = '(you hear someone knocking on your stall door...)';
+                    break;
+                case 'Come on!':
+                    untranslatedButton.textContent = '';
+                    break;
+                case '(farts & defecates)':
+                    untranslatedButton.textContent = '';
+                    break;
                 case 'Invite someone':
                     untranslatedButton.textContent = 'Pass Toilet Paper';
                     break;
