@@ -14,11 +14,11 @@
     'use strict';
     // Function to replace the text
     function translateButtonText() {
-        const translatedCoinCount = document.querySelector('.coin-count-text.blueNight');
-        if (translatedCoinCount) {
+        const translatedCoinCount = document.querySelectorAll('.coin-count-text');
+        translatedCoinCount.forEach(translatedCoinCount => {
             translatedCoinCount.setAttribute('data-text-content', 'Shitload');
             translatedCoinCount.textContent = 'Shitload';
-        }
+        });
         const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText, .stat-class-tooltip');
         translatedButtons.forEach(untranslatedButton => {
             switch(untranslatedButton.textContent.trim()) {
@@ -96,11 +96,11 @@
                 case 'Do you want to leave the current match?':
                     untranslatedButton.textContent = '(you hear someone knocking on your stall door...)';
                     break;
-                case 'Come on!':
-                    untranslatedButton.textContent = '';
+                case 'No':
+                    untranslatedButton.textContent = 'Come on!';
                     break;
-                case '(farts & defecates)':
-                    untranslatedButton.textContent = '';
+                case 'Yes':
+                    untranslatedButton.textContent = '(farts & defecates)';
                     break;
                 case 'Invite someone':
                     untranslatedButton.textContent = 'Pass Toilet Paper';
