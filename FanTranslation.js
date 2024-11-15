@@ -41,6 +41,9 @@
                 case 'Full Screen':
                     untranslatedButton.textContent = 'Gloryhole';
                     break;
+                case 'Exit Full Screen':
+                    untranslatedButton.textContent = 'Undrill it';
+                    break;
                 case 'Enable Auto Full Screen?':
                     untranslatedButton.textContent = 'Wanna drill it?';
                     break;
@@ -96,11 +99,26 @@
                 case 'Do you want to leave the current match?':
                     untranslatedButton.textContent = '(you hear someone knocking on your stall door...)';
                     break;
-                case 'No':
+                case 'Yes':
                     untranslatedButton.textContent = 'Come on!';
                     break;
-                case 'Yes':
+                case 'No':
                     untranslatedButton.textContent = '(farts & defecates)';
+                    break;
+                case 'Ad failed to load':
+                    untranslatedButton.textContent = 'Ass failed to unload';
+                    break;
+                case 'An error occurred while trying to load the ad.':
+                    untranslatedButton.textContent = 'You"re supposed to PUSH it out, not the other way around!';
+                    break;
+                case 'Confirm your purchase':
+                    untranslatedButton.textContent = 'Firmshit your shitchase';
+                    break;
+                case 'Cancel':
+                    untranslatedButton.textContent = 'Shitcel';
+                    break;
+                case 'Get Item':
+                    untranslatedButton.textContent = 'Gethit Shitem';
                     break;
                 case 'Invite someone':
                     untranslatedButton.textContent = 'Pass Toilet Paper';
