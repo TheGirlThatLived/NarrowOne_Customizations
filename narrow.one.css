@@ -21,14 +21,28 @@
 }
 
 /* Class Select Icons */
+div.shop-skin-selection-item.shop-class-selection-item {
+  /**/
+}
 div.class-selection-image-background.wrinkledPaper {
   /*background-image: url("https://commons.wikimedia.org/wiki/File:Sheba1.JPG");*/
   background-image: linear-gradient(to bottom right, rgba(100,0,100,0.5), rgba(200,0,200,1));
-  animation: rulerSnap 2s infinite;
 }
 h3.dialogTitle.blueNight {
   text-transform: capitalize;
   animation: wave 1s infinite;
+}
+div.class-selection-image {
+ /**/
+}
+div.dialog.wrinkledPaper {
+  /* background: transparent; */
+  /* background-color: rgba(0,10,90,0.1);*/
+  background-image: linear-gradient(to bottom right, rgba(0,10,20,0.1), rgba(0,10,90,0.1));
+}
+h3.settings-group-header {
+  background: transparent;
+  background-image: linear-gradient(to bottom right, rgba(0,10,20,0.1), rgba(0,10,90,0.1));
 }
 
 /* Chat Window */
@@ -70,12 +84,12 @@ input::placeholder{
   }
 
 /* Menu Texts */
+.dialog-text-input{text-transform: capitalize;}
 div.main-menu-button-text.whiteBigText.blueNight{text-transform: capitalize;}
 button.dialog-button.blueNight.wrinkledPaper {
   text-transform: capitalize;
 }
-h2.dialogTitle.blueNight{text-transform: capitalize;}
-div.mainInfoText{text-transform: capitalize;}
+h2.dialogTitle.blueNight{text-transform: capitalize;} /*Click to Join*/
 h2.paged-view-page-header-title{text-transform: capitalize;}
 
 select.dialog-select-input.blueNight{text-transform: capitalize;}
@@ -102,3 +116,6 @@ div.main-menu-username.whiteBigText {
   background: none;
 }
 .touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
+div.ownedCoinsContainer.wrinkledPaper.allow-select {
+  visibility: hidden;
+}
