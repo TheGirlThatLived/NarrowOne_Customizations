@@ -12,37 +12,82 @@
 @keyframes rulerSnap{
   50% {transform: rotate(20deg);}
 }
-@keyframes wave{
+@keyframes wobbling{
   0%, 100% {transform: translateY(0);}
   50% {transform: translateY(-10px);}
+}
+/* .scaleBounce */
+@keyframes wobbling2{
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
 }
 @keyframes bleed{
 
 }
+@keyframes waveClipPath {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
 
 /* Class Select Icons */
-div.shop-skin-selection-item.shop-class-selection-item {
-  /**/
-}
 div.class-selection-image-background.wrinkledPaper {
   /*background-image: url("https://commons.wikimedia.org/wiki/File:Sheba1.JPG");*/
   background-image: linear-gradient(to bottom right, rgba(100,0,100,0.5), rgba(200,0,200,1));
 }
 h3.dialogTitle.blueNight {
   text-transform: capitalize;
-  animation: wave 1s infinite;
-}
-div.class-selection-image {
- /**/
+  animation: wobbling 1s ease-in-out infinite;
 }
 div.dialog.wrinkledPaper {
   /* background: transparent; */
   /* background-color: rgba(0,10,90,0.1);*/
   background-image: linear-gradient(to bottom right, rgba(0,10,20,0.1), rgba(0,10,90,0.1));
+
 }
 h3.settings-group-header {
   background: transparent;
   background-image: linear-gradient(to bottom right, rgba(0,10,20,0.1), rgba(0,10,90,0.1));
+}
+.dialog-range-input{
+  background: none;
+  background-image: linear-gradient(to bottom right, rgba(0,10,20,0.0), rgba(0,10,90,0.5));
+  border: 1px black solid;
 }
 
 /* Chat Window */
@@ -89,16 +134,22 @@ div.main-menu-button-text.whiteBigText.blueNight{text-transform: capitalize;}
 button.dialog-button.blueNight.wrinkledPaper {
   text-transform: capitalize;
 }
-h2.dialogTitle.blueNight{text-transform: capitalize;} /*Click to Join*/
+h2.dialogTitle.blueNight{
+  text-transform: capitalize;
+}
+.mainInfoText{ /*Click to Join*/
+  padding: 0px;
+  margin: 0px;
+  top: 94%;
+  text-align: center;
+}
 h2.paged-view-page-header-title{text-transform: capitalize;}
 
 select.dialog-select-input.blueNight{text-transform: capitalize;}
 div.main-menu-username.whiteBigText {
  font-weight: 800;
  background-image: linear-gradient(to right, rgba(200,0,200,1),rgba(150,0,150,0.4), rgba(0,0,0,0));
- /* display: inline-block; */
- animation: wave 0.5s infinite;
- animation-timing-function: ease-in-out; 
+ animation: wobbling2 1s ease-in-out infinite;
 }
 
 /* Kill Notifications */
