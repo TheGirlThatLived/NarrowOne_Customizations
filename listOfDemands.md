@@ -1,15 +1,21 @@
 Moderating Pelican Party Discord I found it hard keeping track of good suggestions and bug reports, so I've tried to compile my favorite picks into a "demands list" - been playing this game daily for 2 years, I could really use some improvements 😅
-__Demands that start with "(?)"__ are unfinished writings, so shouldn't be concerned yet.
+__Demands that start with "(?)"__ are unfinished writings, so shouldn't be considered yet.
 
 ## Quality of Life improvements & bug fixes
 - [ ] 3rd Person Camera (not to confuse with 2nd Person Camera used for spectating) - The camera is swaying from left to right, player model often appearing in front of crosshair obstructing view. Camera needs to be fixed to position behind player character, and crosshair adjusted for the aim offset that occurs in this camera mode (preferably aiming point being in the center of screen same as for 1st person, to not confuse 3rd party HUD crosshairs).
 - [ ] 3rd Person Raycasts collide with team-specific colliders causing arrows to fly in wrong directions (https://discord.com/channels/519477170964267008/1275455977268973599/1275455977268973599)
-- [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
-- [ ] (?) Shop: Sort by stats (https://discord.com/channels/519477170964267008/1195365763696042036/1248079955519082566)
 - [ ] More separate and distinctive audio cues for in-game events. (https://discord.com/channels/519477170964267008/1238898904624402543/1238898904624402543)
+#### Shop
+- [ ] Scoreboard: Display timer for onging match length (https://discord.com/channels/519477170964267008/1095050694630842488/1095050694630842488)
+  - [ ] and display ping of each player (https://discord.com/channels/519477170964267008/1100127426236924064/1100127426236924064)
+- [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
+- [ ] Shop: Make the character in preview screen slowly revolve around when mouse doesn't hover in its window. For better equipment preview. (https://discord.com/channels/519477170964267008/1248192828543205438/1248192828543205438)
+- [ ] Shop>Photo mode: A rotation argument, to rotate the character.
+- [ ] Preset renaming. (Shop: https://discord.com/channels/519477170964267008/1152934589828968468/1152934589828968468 In-game: https://discord.com/channels/519477170964267008/1152934589828968468/1161642544183132220)
+- [ ] (?) Shop: Sort by stats (https://discord.com/channels/519477170964267008/1195365763696042036/1248079955519082566)
 #### Squads
 - [ ] Create Squad: add list box for selecting map to play on (including map versions).
-- [ ] Create Squad: fix squad leader being able to select team affiliations (overrule matchmaking's auto-team balancing on match start?).
+- [ ] Create Squad: fix squad leader being able to select team affiliations (overrule matchmaking's auto-team balancing on match start?). (https://discord.com/channels/519477170964267008/1226181257013104670/1226181257013104670)
 - [ ] Squad: Transfer Leadership button (leaving match as leader without making the ongoing game stop) (https://discord.com/channels/519477170964267008/1246868840822997133/1246868840822997133)
 #### In-game chat
   - [ ] Messages stored locally instead of disappearing after 4sec, ability to block users locally (blocked users stored in IndexedDB by their UserIDs (their unique public identifier derived from AccountID in a private-public key fashion and stored on server)).
@@ -28,12 +34,23 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be conce
 ^This could also be a new separate stat, if Bloodlust should remain only a gimmic. Either way this mechanic has a potential to balance out 1v4 lobbies, but there's also a risk of tipping the balance off, if in 1v4 scenario the bigger team is 1 decent player and 3 peaceful teammates just feeding kills to opponent.
 - [ ] CTF Flag Return Timer: After the first 2 minutes of the match, the Flag Return Timer should increase to 5sec at minimum, then not increase, so the match doesn't eventually turn into a flag relay rush. This will help with long games, because a lot of its length is contributed to flag pushes being innefficient for first half of the game until the return timer increases. (https://discord.com/channels/519477170964267008/1251646801023340584/1251646801023340584)
 - [ ] Delayed "Enemy Flag Carrier" Icon. (https://discord.com/channels/519477170964267008/1248076458673569903/1248076458673569903)
+- [ ] (?) Bow6 "Defender" Buffs (https://discord.com/channels/519477170964267008/1073481754582732861/1073481754582732861)
+- [x] Bow5 "Support" balance (https://discord.com/channels/519477170964267008/1178208961195941948/1178467599458242631)
 #### Melee
-- [ ] Light Poke weapons are overpowered (poosting and Heavy Blade-comparable damage).
-- [ ] Heavy Poke weapons need rebalance.
+- [ ] Light Poke weapons are overpowered (poosting and Heavy Blade-comparable damage). (https://discord.com/channels/519477170964267008/1220853547030155395/1280691861291401246)
+- [ ] Heavy Poke weapons need rebalance. (https://discord.com/channels/519477170964267008/1192179212161908817/11921792121619088170)
 - [ ] Heavy Blunt with +3 ATK and more should have the ability to completely stun someone in place for a whole second.
+- [ ] Frying Pan to make a different hit sound (optionally to also play this hitsound to damaged player) (https://www.myinstants.com/en/instant/tf2-frying-pan/)
+#### Map critique
+- [ ] Towers v1 & v2 (https://discord.com/channels/519477170964267008/1208120631120494643/1208120631120494643) (https://discord.com/channels/519477170964267008/1166942167231627324/1166942167231627324)
+- [ ] Castles v1
 
 ## Big changes
+- [ ] Key binds in settings for shoot, weapon switch, etc. (https://discord.com/channels/519477170964267008/1019965016075665471/1019965016075665471)
+  - [ ] Zoom Keybind, so bows can be fired without resetting zoom if wanted (eg. Bow3 long range gameplay: player repeatedly holds and lets go of fire, while keeping zoom button held to remain at full zoom) (https://discord.com/channels/519477170964267008/1089949203192627251/1089949203192627251)
+  - [ ] Equip Bow; Equip Melee keybinds, and asmall visual SVG indicator of whether Melee or Bow is equipped (benefits players with weapon viewmodel disabled) (https://discord.com/channels/519477170964267008/1095779280560078938/1095779280560078938)
+  - [ ] Kill Bind (https://discord.com/channels/519477170964267008/1118502743036936214/1118502743036936214)
+- [ ] Stricter dealing with lagging players - instead of appearing as they stop mid-air, then speedrun through half the map, those players will be somehow reset/rolled-back, or forcefully respawned and eventually kicked if their network issue persists.
 - [ ] Server browser
 - [ ] Special "always online" lobby codes with custom rulesets (gravity adjustment, limited map playlist, health pack spawning on maps and no REGEN, Free for All gamemode, ...) (https://discord.com/channels/519477170964267008/1270943449352376432/1270943449352376432)
 - [ ] (?) Elo balances (https://discord.com/channels/519477170964267008/1272594235249655808/1272594235249655808)
