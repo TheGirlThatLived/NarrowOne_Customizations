@@ -6,9 +6,9 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] 3rd Person Camera (not to confuse with 2nd Person Camera used for spectating) - The camera is swaying from left to right, player model often appearing in front of crosshair obstructing view. Camera needs to be fixed to position behind player character, and crosshair adjusted for the aim offset that occurs in this camera mode (preferably aiming point being in the center of screen same as for 1st person, to not confuse 3rd party HUD crosshairs).
 - [ ] 3rd Person Raycasts collide with team-specific colliders causing arrows to fly in wrong directions (https://discord.com/channels/519477170964267008/1275455977268973599/1275455977268973599)
 - [ ] More separate and distinctive audio cues for in-game events. (https://discord.com/channels/519477170964267008/1238898904624402543/1238898904624402543)
-#### Shop
 - [ ] Scoreboard: Display timer for ongoing match length (https://discord.com/channels/519477170964267008/1100127426236924064/1100127426236924064)
   - [ ] and display ping of each player (https://discord.com/channels/519477170964267008/1095050694630842488/1095050694630842488)
+#### Shop
 - [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
 - [ ] Shop: Make the character in preview screen slowly revolve around when mouse doesn't hover in its window. For better equipment preview. (https://discord.com/channels/519477170964267008/1248192828543205438/1248192828543205438)
 - [ ] Shop>Photo mode: A rotation argument, to rotate the character.
