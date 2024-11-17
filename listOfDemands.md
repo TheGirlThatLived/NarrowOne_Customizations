@@ -6,7 +6,7 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] 3rd Person Raycasts collide with team-specific colliders causing arrows to fly in wrong directions (https://discord.com/channels/519477170964267008/1275455977268973599/1275455977268973599)
 - [ ] More separate and distinctive audio cues for in-game events. (https://discord.com/channels/519477170964267008/1238898904624402543/1238898904624402543)
 #### Shop
-- [ ] Scoreboard: Display timer for onging match length (https://discord.com/channels/519477170964267008/1100127426236924064/1100127426236924064)
+- [ ] Scoreboard: Display timer for ongoing match length (https://discord.com/channels/519477170964267008/1100127426236924064/1100127426236924064)
   - [ ] and display ping of each player (https://discord.com/channels/519477170964267008/1095050694630842488/1095050694630842488)
 - [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
 - [ ] Shop: Make the character in preview screen slowly revolve around when mouse doesn't hover in its window. For better equipment preview. (https://discord.com/channels/519477170964267008/1248192828543205438/1248192828543205438)
@@ -17,14 +17,17 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] Create Squad: add list box for selecting map to play on (including map versions).
 - [ ] Create Squad: fix squad leader being able to select team affiliations (overrule matchmaking's auto-team balancing on match start?). (https://discord.com/channels/519477170964267008/1226181257013104670/1226181257013104670)
 - [ ] Squad: Transfer Leadership button (leaving match as leader without making the ongoing game stop) (https://discord.com/channels/519477170964267008/1246868840822997133/1246868840822997133)
+- [ ] "Squad" tag in scoreboard should also show for players that aren't in squad (so they know when something's off - why).
 #### In-game chat
   - [ ] Messages stored locally instead of disappearing after 4sec, ability to block users locally (blocked users stored in IndexedDB by their UserIDs (their unique public identifier derived from AccountID in a private-public key fashion and stored on server)).
   - [ ] Chat available in Squad menu (before map load)
 #### M8M6 Lobby fixes - being a special lobby it is, it should employ different ruleset
-- [ ] **No** Squad Leader, lobbies start automatically and end when there are no players in the lobby. Player joining will trigger the game to start in a random ongoing lobby.
-- [ ] Maps aren't chosen randomly or by other players - they are picked sequentially by a playlist.
-- [ ] Players can switch teams (incl. becoming Spectator) by themselves at anytime and during ongoing match.
-- [ ] Players AFK for longer than 15sec get moved to Spectators team instead of being kicked off the lobby.
+- [ ] "Always Online Lobby" - This type of lobbies stop when all players leave, then starts by joining a random ongoing match when anyone tries to join this lobby (attempts to make its own match only after reaching specific player threshold):
+  - [ ] **No** Squad Leader, lobbies start automatically and end when there are no players in the lobby. Player joining will trigger the game to start in a random ongoing lobby.
+  - [ ] Maps aren't chosen randomly or by other players - they are picked sequentially by a playlist.
+  - [ ] Players can switch teams (incl. becoming Spectator) by themselves at anytime and during ongoing match.
+  ^ Should all players in squad leave, map will be skipped
+  - [ ] Players AFK for longer than 15sec get moved to Spectators team instead of being kicked off the lobby.
 
 ## Balance changes
 - [ ] Bow1 "Scout" weapon class should be either removed, remade into something new (to not waste skin purchases), or headshotting ability taken away from it for balance purposes.
