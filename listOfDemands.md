@@ -1,20 +1,24 @@
+Moderating Pelican Party Discord I found it hard keeping track of good suggestions and bug reports, so I've tried to compile my favorite picks into a "demands list" - been playing this game daily for 2 years, I could really use some improvements 😅
+__Demands that start with "(?)"__ are unfinished writings, so shouldn't be concerned yet.
+
 ## Quality of Life improvements & bug fixes
 - [ ] 3rd Person Camera (not to confuse with 2nd Person Camera used for spectating) - The camera is swaying from left to right, player model often appearing in front of crosshair obstructing view. Camera needs to be fixed to position behind player character, and crosshair adjusted for the aim offset that occurs in this camera mode (preferably aiming point being in the center of screen same as for 1st person, to not confuse 3rd party HUD crosshairs).
 - [ ] 3rd Person Raycasts collide with team-specific colliders causing arrows to fly in wrong directions (https://discord.com/channels/519477170964267008/1275455977268973599/1275455977268973599)
 - [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
-- [ ] Shop: Sort by stats (https://discord.com/channels/519477170964267008/1195365763696042036/1248079955519082566)
-- In-game chat:
-  - [ ] Messages stored locally instead of disappearing after 4sec, ability to block users locally (blocked users stored in IndexedDB by their UserIDs (their unique public identifier derived from AccountID in a private-public key fashion and stored on server)).
-  - [ ] Chat available in Squad menu (before map load)
+- [ ] (?) Shop: Sort by stats (https://discord.com/channels/519477170964267008/1195365763696042036/1248079955519082566)
 - [ ] More separate and distinctive audio cues for in-game events. (https://discord.com/channels/519477170964267008/1238898904624402543/1238898904624402543)
+#### Squads
 - [ ] Create Squad: add list box for selecting map to play on (including map versions).
 - [ ] Create Squad: fix squad leader being able to select team affiliations (overrule matchmaking's auto-team balancing on match start?).
 - [ ] Squad: Transfer Leadership button (leaving match as leader without making the ongoing game stop) (https://discord.com/channels/519477170964267008/1246868840822997133/1246868840822997133)
-- M8M6 Lobby fixes - being a special lobby it is, it should employ different ruleset:
-  - [ ] **No** Squad Leader, lobbies start automatically and end when there are no players in the lobby. Player joining will trigger the game to start in a random ongoing lobby.
-  - [ ] Maps aren't chosen randomly or by other players - they are picked sequentially by a playlist.
-  - [ ] Players can switch teams (incl. becoming Spectator) by themselves at anytime and during ongoing match.
-  - [ ] Players AFK for longer than 15sec get moved to Spectators team instead of being kicked off the lobby.
+#### In-game chat
+  - [ ] Messages stored locally instead of disappearing after 4sec, ability to block users locally (blocked users stored in IndexedDB by their UserIDs (their unique public identifier derived from AccountID in a private-public key fashion and stored on server)).
+  - [ ] Chat available in Squad menu (before map load)
+#### M8M6 Lobby fixes - being a special lobby it is, it should employ different ruleset
+- [ ] **No** Squad Leader, lobbies start automatically and end when there are no players in the lobby. Player joining will trigger the game to start in a random ongoing lobby.
+- [ ] Maps aren't chosen randomly or by other players - they are picked sequentially by a playlist.
+- [ ] Players can switch teams (incl. becoming Spectator) by themselves at anytime and during ongoing match.
+- [ ] Players AFK for longer than 15sec get moved to Spectators team instead of being kicked off the lobby.
 
 ## Balance changes
 - [ ] Bow1 "Scout" weapon class should be either removed, remade into something new (to not waste skin purchases), or headshotting ability taken away from it for balance purposes.
