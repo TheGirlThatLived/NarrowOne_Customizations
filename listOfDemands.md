@@ -39,7 +39,7 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] CTF Flag Return Timer: After the first 2 minutes of the match, the Flag Return Timer should increase to 5sec at minimum, then not increase, so the match doesn't eventually turn into a flag relay rush. This will help with long games, because a lot of its length is contributed to flag pushes being innefficient for first half of the game until the return timer increases. (https://discord.com/channels/519477170964267008/1251646801023340584/1251646801023340584)
 - [ ] Delayed "Enemy Flag Carrier" Icon. (https://discord.com/channels/519477170964267008/1248076458673569903/1248076458673569903)
 - [ ] (?) Bow6 "Defender" Buffs (https://discord.com/channels/519477170964267008/1073481754582732861/1073481754582732861)
-- [x] Bow5 "Support" balance (https://discord.com/channels/519477170964267008/1178208961195941948/1178467599458242631)
+- [x] Bow5 "Support" balance (Once Bow1 gets balanced, Bow5 should effectively replace it) (https://discord.com/channels/519477170964267008/1178208961195941948/1178467599458242631)
 #### Melee
 - [ ] Light Poke weapons are overpowered (poosting and Heavy Blade-comparable damage). (https://discord.com/channels/519477170964267008/1220853547030155395/1280691861291401246)
 - [ ] Heavy Poke weapons need rebalance. (https://discord.com/channels/519477170964267008/1192179212161908817/11921792121619088170)
