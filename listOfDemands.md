@@ -1,4 +1,5 @@
 Moderating Pelican Party Discord I found it hard keeping track of good suggestions and bug reports, so I've tried to compile my favorite picks into a "demands list" - been playing this game daily for 2 years, I could really use some improvements 😅
+
 __Demands that start with "(?)"__ are unfinished writings, so shouldn't be considered yet.
 
 ## Quality of Life improvements & bug fixes
