@@ -50,7 +50,7 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] Castles v1
 
 ## Big changes
-- [ ] Key binds in settings for shoot, weapon switch, etc. (https://discord.com/channels/519477170964267008/1019965016075665471/1019965016075665471)
+- [ ] Key binds in settings for shoot, weapon switch, etc. (Key binds-related changes exclusive to PC players) (https://discord.com/channels/519477170964267008/1019965016075665471/1019965016075665471)
   - [ ] Zoom Keybind, so bows can be fired without resetting zoom if wanted (eg. Bow3 long range gameplay: player repeatedly holds and lets go of fire, while keeping zoom button held to remain at full zoom) (https://discord.com/channels/519477170964267008/1089949203192627251/1089949203192627251)
   - [ ] Equip Bow; Equip Melee keybinds, and asmall visual SVG indicator of whether Melee or Bow is equipped (benefits players with weapon viewmodel disabled) (https://discord.com/channels/519477170964267008/1095779280560078938/1095779280560078938)
   - [ ] Kill Bind (https://discord.com/channels/519477170964267008/1118502743036936214/1118502743036936214)
