@@ -58,3 +58,4 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] Server browser
 - [ ] Special "always online" lobby codes with custom rulesets (gravity adjustment, limited map playlist, health pack spawning on maps and no REGEN, Free for All gamemode, ...) (https://discord.com/channels/519477170964267008/1270943449352376432/1270943449352376432)
 - [ ] (?) Elo balances (https://discord.com/channels/519477170964267008/1272594235249655808/1272594235249655808)
+- [ ] Duels - players can send duel requests to other players in the same lobby and make coin bets. Should oppponent accept the request, game deducts bet amount of coins from his account. Both players have a "duel" icon appearing on scoreboard and visible to everyone. After 3rd flag is captured, whoever killed the other duelist more, wins the bet amount. If draw - both duelists receive half of the bag (https://discord.com/channels/519477170964267008/1307901713751216128/1308099291247808643)
