@@ -17,6 +17,8 @@ If you're an audio learner, here are some videos:
 
 Speed course: https://www.youtube.com/watch?v=OEV8gMkCHXQ
 
-Live examples: https://youtu.be/1PnVor36_40?t=536 
+Speed course (in practice): https://youtu.be/1PnVor36_40?t=536
+
+Live exaples (for copy-pasting): https://uiverse.io/elements?t=css&orderBy=favorites | https://getcssscan.com/css-box-shadow-examples | https://codepen.io/topics/ui-patterns
 
 Discussion thread (held on Pelican Party Discord https://discord.com/invite/j8jnjWx9Uc ): https://discord.com/channels/519477170964267008/1302074751510118510/1302074751510118510
