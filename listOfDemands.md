@@ -9,6 +9,7 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] Scoreboard: Display timer for ongoing match length (https://discord.com/channels/519477170964267008/1100127426236924064/1100127426236924064)
   - [ ] and display ping of each player (https://discord.com/channels/519477170964267008/1095050694630842488/1095050694630842488)
 #### Shop
+- [ ] Shop: Move "Arrow" category into "Bow" category - benefits presets, allows for different arrows per bow in same preset (https://discord.com/channels/519477170964267008/1311093312739999844/1311093312739999844)
 - [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
 - [ ] Shop: Make the character in preview screen slowly revolve around when mouse doesn't hover in its window. For better equipment preview. (https://discord.com/channels/519477170964267008/1248192828543205438/1248192828543205438)
 - [ ] Shop>Photo mode: A rotation argument, to rotate the character.
