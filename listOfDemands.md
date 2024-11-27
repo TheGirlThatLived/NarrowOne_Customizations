@@ -43,6 +43,7 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [x] Bow5 "Support" balance (Once Bow1 gets balanced, Bow5 should effectively replace it) (https://discord.com/channels/519477170964267008/1178208961195941948/1178467599458242631)
 #### Melee
 - [ ] Light Poke weapons are overpowered (poosting and Heavy Blade-comparable damage). (https://discord.com/channels/519477170964267008/1220853547030155395/1280691861291401246)
+  - [ ] Add massive cooldown for simply missing a target (similar to Light Blunt)? - then 90-180 poost remains purely for parkour sake (reaching edges), but it can't be spammed to escape fights for scum a flag. Might need a deploy delay too, to make up for Heavy Poke's charging animation and thus making them both more equal to each other.
 - [ ] Heavy Poke weapons need rebalance. (https://discord.com/channels/519477170964267008/1192179212161908817/11921792121619088170)
 - [ ] Heavy Blunt with +3 ATK and more should have the ability to completely stun someone in place for a whole second.
 - [ ] Frying Pan to make a different hit sound (optionally to also play this hitsound to damaged player) (https://www.myinstants.com/en/instant/tf2-frying-pan/)
