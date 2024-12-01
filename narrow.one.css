@@ -8,6 +8,11 @@
     text-shadow: 0px 0px 5px black;
 }
 
+/* Crosshair */
+.crosshair-container{
+  scale: 80%;
+}
+
 /* Animations declared */
 @keyframes rulerSnap{
   50% {transform: rotate(20deg);}
@@ -93,7 +98,7 @@ h3.settings-group-header {
 
 /* Chat Window */
 .chat-log-container { /* Incoming text messages */
-  font-size: 30pt;
+  font-size: 20pt;
   padding:0px, 0px, 0px, 0px;
   overflow: hidden;
   max-height: min(800px, 50vh);
@@ -117,7 +122,7 @@ h3.settings-group-header {
   padding:0px, 0px, 0px, 0px;
 }
 .chat-input { /* Written text */
- font-size: 30pt;
+ font-size: 20pt;
  padding:0px, 0px, 0px, 0px;
 }
 input.dialog-text-input.wrinkledPaper.chat-input {
@@ -125,11 +130,11 @@ input.dialog-text-input.wrinkledPaper.chat-input {
   padding:0px, 0px, 0px, 0px;
 }
 .chat-message-name { /*Message author*/
-  font-size: 20pt;
+  font-size: 15pt;
 }
 input::placeholder{ /* Your input text */
     font-family: Ubuntu !important;
-    font-size: 19px;
+    font-size: 16px;
     text-transform: capitalize;
     visibility: hidden;
   }
