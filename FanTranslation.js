@@ -25,6 +25,9 @@
                 case 'Click to join':
                     untranslatedButton.textContent = 'Shit in Play';
                     break;
+                case 'Press T to chat with your squad':
+                    untranslatedButton.textContent = 'Activate Windows';
+                    break;
                     // Main Menu buttons
                 case 'Settings':
                     untranslatedButton.textContent = 'Shittings';
@@ -132,7 +135,22 @@
                 case 'Start':
                     untranslatedButton.textContent = 'Shat';
                     break;
+                case 'Still connecting':
+                    untranslatedButton.textContent = 'Still pushing';
+                    break;
+                case 'Connecting seems to take longer than expected. Do you want to keep trying?':
+                    untranslatedButton.textContent = 'Contracting poop-birthing cramps seems to take longer than expected. Do you want to keep trying?';
+                    break;
+                case 'Keep trying':
+                    untranslatedButton.textContent = 'Push harder';
+                    break;
+                case 'The connection closed abruptly :(':
+                    untranslatedButton.textContent = 'Water spilled outta toilet onto tiled floor :-(';
+                    break;
                     // Loadouts
+                case 'Are you sure you want to delete this preset?':
+                    untranslatedButton.textContent = 'Cleaning up?';
+                    break;
                 case 'Presets':
                     untranslatedButton.textContent = 'Shitsets';
                     break;
