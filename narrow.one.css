@@ -89,7 +89,7 @@ h3.settings-group-header {
   background: transparent;
   background-image: linear-gradient(to bottom right, rgba(0,10,20,0.1), rgba(0,10,90,0.1));
 }
-.dialog-range-input{
+.dialog-checkbox-input, .dialog-toggle-input, .dialog-range-input,input.dialog-range-input[type="range"]{
   background: none;
   background-image: linear-gradient(to bottom right, rgba(0,10,20,0.0), rgba(0,10,90,0.5));
   border: 1px solid black;
@@ -181,8 +181,9 @@ div.main-menu-username.whiteBigText {
 div.ownedCoinsContainer.wrinkledPaper.allow-select {
   visibility: hidden;
 }
-.playersListContainer{ /*Players Scoreboard background*/
+.playersListContainer, .playersListTeamTable, .playersListItem{ /*Players Scoreboard background*/
+  /* background: transparent; */
 }
-.playersListTeam.wrinkledPaper{
+.playersListTeam.wrinkledPaper{ /*Players Scoreboard background*/
   background: transparent;
 }
