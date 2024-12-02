@@ -72,8 +72,8 @@
 
 /* Class Select Icons */
 div.class-selection-image-background.wrinkledPaper {
-  /*background-image: url("https://commons.wikimedia.org/wiki/File:Sheba1.JPG");*/
-  background-image: linear-gradient(to bottom right, rgba(100,0,100,0.5), rgba(200,0,200,1));
+  background-image: url("https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/bowClassBackground(BrandonCurrington)%5B40FPS%5D.png");
+  /* background-image: linear-gradient(to bottom right, rgba(100,0,100,0.5), rgba(200,0,200,1)); */
 }
 h3.dialogTitle.blueNight {
   text-transform: capitalize;
