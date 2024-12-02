@@ -175,6 +175,9 @@
                 case 'Defender':
                     untranslatedButton.textContent = 'Fat Shitter';
                     break;
+                case 'Edit':
+                    untranslatedButton.textContent = 'Shitit';
+                    break;
                     // Shop
                 case 'Looks':
                     untranslatedButton.textContent = 'Shitlooks';
