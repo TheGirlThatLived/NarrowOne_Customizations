@@ -32,6 +32,7 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
   - [ ] Players AFK for longer than 15sec get moved to Spectators team instead of being kicked off the lobby.
 
 ## Balance changes
+- [ ] Delayed "Enemy Flag Carrier" Icon, so flag of the team that is being heisted can't trace carriers with precision through the walls. Position update every 3sec, and some .svg animation to indicate that it's being stolen, would be more fair. (https://discord.com/channels/519477170964267008/1248076458673569903/1248076458673569903).
 - [ ] Bow1 "Scout" weapon class should be either removed, remade into something new (to not waste skin purchases), or headshotting ability taken away from it for balance purposes.
 - [ ] LOAD Stats rebalance: +5 LOAD is too much, affecting all bows. (https://discord.com/channels/519477170964267008/1250335189670952960/1250335189670952960)
 - [ ] ATK/ARM/STUN Stats rebalance: STUN is being useless most of time (thanks to Poosting), and less LOAD available would mean more stats spent on ATK.
