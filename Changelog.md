@@ -1,4 +1,4 @@
-**To-Do:**
+**Next up:**
 >Update README
     >More styles and mods: <https://github.com/Talent7-source/GameMods/>
 >Push auto-updating scripts (Violent Glass; Wordington)
