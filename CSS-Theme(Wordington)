@@ -1,0 +1,3 @@
+  /* Menus */
+div.class-selection-image-background.wrinkledPaper { /* Class select icon backgrounds */
+  background-image: url("https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/bowClassBackground(BrandonCurrington)%5B40FPS%5D.png");
