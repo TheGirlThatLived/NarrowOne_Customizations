@@ -16,7 +16,6 @@
   0%, 100% {transform: translateY(0);}
   50% {transform: translateY(-10px);}
 }
-/* .scaleBounce */
 @keyframes wobbling2{
   0%, 100% {
     transform: translateY(0);
@@ -32,7 +31,9 @@
   }
 }
 @keyframes bleed{
-
+  0% {background-color: rgba(200,0,0,0);}
+  50% {background-color: rgba(250,0,0,0.5);}
+  100% {background-color: rgba(200,0,0,0);}
 }
 @keyframes waveClipPath {
 	0%,
@@ -100,8 +101,9 @@ input::placeholder{ /* Press T to write placeholder text */
 
   /* Menus */
 div.class-selection-image-background.wrinkledPaper { /* Class select icon backgrounds */
-  background-image: url("https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/bowClassBackground(BrandonCurrington)%5B40FPS%5D.png");
-  /* background-image: linear-gradient(to bottom right, rgba(100,0,100,0.5), rgba(200,0,200,1)); */
+  animation: bleed 12s linear infinite;
+  background: transparent;
+  background-image: linear-gradient(to bottom right, rgba(100,0,100,0.2), rgba(180,0,180,0.5));
 }
 h3.dialogTitle.blueNight { /* Class names */
   text-transform: capitalize;
