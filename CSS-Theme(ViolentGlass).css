@@ -147,7 +147,7 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   /* In-Game UI */
 .playersListContainer, .playersListTeamTable, .playersListItem{ /*Players Scoreboard background*/
   background: transparent;
-  filter: saturate(85%);
+  filter: saturate(65%);
 }
 .playersListTeam.wrinkledPaper{ /*Players Scoreboard (rows background)*/
   background: none;
