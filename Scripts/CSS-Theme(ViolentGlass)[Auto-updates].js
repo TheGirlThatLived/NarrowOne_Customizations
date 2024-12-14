@@ -16,7 +16,7 @@
     function fetchAndApplyCSS() {
         GM_xmlhttpRequest({
             method: 'GET',
-            url: 'https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/CSS-Theme(ViolentGlass).css',
+            url: 'https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Styles/CSS-Theme(ViolentGlass).css',
             onload: function(response) {
                 if (response.status === 200) {
                     GM_addStyle(response.responseText);
