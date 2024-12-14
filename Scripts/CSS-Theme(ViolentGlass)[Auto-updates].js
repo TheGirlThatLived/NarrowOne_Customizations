@@ -50,7 +50,7 @@
 
                     // Create and append version text
                     const versionText = document.createElement('div');
-                    versionText.textContent = 'Version: ' + GM_info.script.version;
+                    versionText.textContent = 'Style/Updater Version: ' + GM_info.script.version;
                     versionText.style.position = 'fixed';
                     versionText.style.bottom = '3%';
                     versionText.style.right = '1%';
