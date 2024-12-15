@@ -51,6 +51,19 @@
                     document.body.appendChild(svgElement);
                     svgElement.setAttribute('width', '14%'); svgElement.setAttribute('height', '14%');
                     svgElement.style.animation = `blinking 60s infinite`;
+                    /* //Error
+                    const crosshairContainer = document.querySelector('.crosshair-container');
+                    const crosshair = document.createElement('div');
+                    crosshair.style.width = '100px'; // Diameter of the circle
+                    crosshair.style.height = '100px'; // Diameter of the circle
+                    crosshair.style.backgroundColor = 'green'; // Color of the circle
+                    crosshair.style.borderRadius = '50%'; // Makes the div a circle
+                    crosshair.style.position = 'absolute'; // Ensures it can be positioned within the container
+                    crosshair.style.top = '50%'; // Center vertically
+                    crosshair.style.left = '50%'; // Center horizontally
+                    crosshair.style.transform = 'translate(-50%, -50%)'; // Adjusts position to the exact center
+                    crosshairContainer.appendChild(crosshair);
+                    */
 
                     // Create and append version text
                     const versionText = document.createElement('div');
