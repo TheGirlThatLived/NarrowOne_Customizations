@@ -1,11 +1,9 @@
 /*20241215_0722*/
   /* Replace most of the fonts */
-  /* OPTIONAL: In this section, replace code lines with their commented-out counterparts next to them, to use Dyslexia-friendly font */
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=OpenDyslexic&display=swap);
 *:not(pre, pre *, code, .far, .fa, [class*="fa-"], .glyphicon, [class*="vjs-"], .fab, .fa-github, .fas, .material-icons, .icofont, .typcn, mu, [class*="mu-"], .glyphicon, [class*="icon"], .gog-icons, .google-material-icons) {
-    font-family: Ubuntu !important; /* font-family: OpenDyslexic !important; */
-    font-weight: 500; /* font-weight: 700; */
+    font-family: Ubuntu !important;
+    font-weight: 500;
     text-shadow: 0px 0px 5px black;
 }
 
@@ -74,35 +72,35 @@
 
   /* Chat Window */
 .chat-log-container { /* Incoming text messages */
-  font-size: 20pt;
-  padding:0px, 0px, 0px, 0px;
-  overflow: hidden;
-  max-height: min(800px, 50vh);
-  max-width: min(800px, 50vw);
+  font-size: 20pt !important;
+  padding:0px, 0px, 0px, 0px !important;
+  overflow: hidden !important;
+  max-height: min(800px, 50vh) !important;
+  max-width: min(800px, 50vw) !important;
 }
 .chat-container{ /* Chat box */
-  padding:0px, 0px, 0px, 0px;
-  background:none;
-  position: absolute;
-  left: 15%;
-  bottom: 25%;
+  padding:0px, 0px, 0px, 0px !important;
+  background:none !important;
+  position: absolute !important;
+  left: 15% !important;
+  bottom: 25% !important;
 }
 .chat-input { /* Written text */
- font-size: 20pt;
- padding:0px, 0px, 0px, 0px;
+ font-size: 20pt !important;
+ padding:0px, 0px, 0px, 0px !important;
 }
 .chat-message-name { /*Message author*/
-  font-size: 15pt;
+  font-size: 15pt !important;
 }
 input::placeholder{ /* Press T to write placeholder text */
     font-family: Ubuntu !important;
-    font-size: 16px;
+    font-size: 16px !important;
     text-transform: capitalize;
     visibility: hidden;
 }
 .chat-container.wrinkledPaper.up, input.dialog-text-input.wrinkledPaper.chat-input, .chat-message-container, .chat-message-content{
-  padding:0px, 0px, 0px, 0px;
-  background:none;
+  padding:0px, 0px, 0px, 0px !important;
+  background:none !important;
 }
 
   /* Menus */
@@ -151,11 +149,11 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 
   /* In-Game UI */
 .playersListContainer, .playersListTeamTable, .playersListItem{ /*Players Scoreboard background*/
-  background: transparent;
+  background: transparent !important; /* Error: Doesn't apply in Tampermonkey */
   filter: saturate(65%);
 }
 .playersListTeam.wrinkledPaper{ /*Players Scoreboard (rows background)*/
-  background: none;
+  background: none !important;
 }
 .playersListTeam{ /* Players Scoreboard (text) */
   opacity: 100%;
@@ -187,5 +185,5 @@ div.ownedCoinsContainer.wrinkledPaper.allow-select {
   visibility: hidden;
 }
 .dialogCurtain, div.fullScreen{ /* Screen dimming */
-  background: none;
+  background: none !important; /* Error: Doesn't apply in Tampermonkey */
 }
