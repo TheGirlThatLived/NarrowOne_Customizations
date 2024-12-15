@@ -37,9 +37,9 @@
   40% {background-color: rgba(0,0,0,0);}
 }
 @keyframes blinking{
-  0% {opacity:0;}
-  50% {opacity:1;}
-  100% {opacity:0;}
+  0% {opacity:0.05;}
+  50% {opacity:0.4;}
+  100% {opacity:0.05;}
 }
 @keyframes waveClipPath{
 	0%,
