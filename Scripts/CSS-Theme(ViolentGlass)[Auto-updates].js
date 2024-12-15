@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CSS Theme (Violent Glass) [Auto-updates]
 // @namespace    http://tampermonkey.net/
-// @version      20241215_0722
+// @version      20241215_0842
 // @description  Guest 0187's personalized CSS edits.
 // @author       Incredible_Violent
 // @run-at       document-start
@@ -13,7 +13,6 @@
 (function() {
     'use strict';
     let stylesheetVersion = '';
-    // Function to fetch and apply CSS
     function fetchAndApplyCSS() {
         GM_xmlhttpRequest({
             method: 'GET',
@@ -32,7 +31,6 @@
             }
         });
     }
-    // Function to fetch and apply SVG
     function fetchAndApplySVG() {
         GM_xmlhttpRequest({
             method: 'GET',
@@ -85,7 +83,27 @@
             }
         });
     }
+    function fetchAndApplyHPBar(){
+    GM_xmlhttpRequest({
+        method: 'GET',
+        url: 'https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/HealthBarPercentage.js',
+        onload: function(response) {
+            if (response.status === 200) {
+                const scriptContent = response.responseText;
+                const scriptElement = document.createElement('script');
+                scriptElement.textContent = scriptContent;
+                document.body.appendChild(scriptElement);
+            } else {
+                console.error('Failed to fetch the script:', response.statusText);
+            }
+        },
+        onerror: function(response) {
+            console.error('Error fetching the script:', response.statusText);
+        }
+    });
+    };
     // Apply changes
     fetchAndApplySVG();
     fetchAndApplyCSS();
+    fetchAndApplyHPBar();
 })();
