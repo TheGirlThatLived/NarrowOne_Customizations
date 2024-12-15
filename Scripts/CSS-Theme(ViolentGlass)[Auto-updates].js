@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      20241215_0907
 // @description  Guest 0187's personalized CSS edits.
-// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Razgriz; PING 18
+// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Lord Graz; Razgriz; PING 18
 // @run-at       document-start
 // @match        https://narrow.one/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=narrow.one
