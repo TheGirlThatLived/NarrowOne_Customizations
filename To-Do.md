@@ -1,0 +1,12 @@
+**Next up:**
+- Violent Glass
+    - [ ] Add breathing(?) and walking animations to character cards
+    - [ ] Custom Crosshairs `const svgURL = (svgURL) => URL.createObjectURL(new Blob([svgURL], {type: 'image/svg+xml'}));` _ `const greenDot = svgURL(`<svg xmlns="https://www."></svg>`)` _ `<img src="${greenDot}">`
+    - [ ] Declare "TheHoly" animation (reference: <https://www.youtube.com/watch?v=Ty_cXtdzKKc>)
+    - [ ] Un-disable this by default: `<button class="dialog-button blueNight wrinkledPaper" disabled="" style="--wrinkled-paper-seed: 68970;">Shat</button>`
+    - [ ] Glassify the Main Menu buttons
+    - [ ] Glassify the HP bar
+- Health Bar Percentage.js
+    - [ ] Place the Text% inside "health-ui-heart"
+    - [ ] Adjust the text font size and visibility on heart background
+    - [ ] (?) Color the heart icon by player's team color
