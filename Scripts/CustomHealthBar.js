@@ -6,8 +6,8 @@
 // @author       Xeltalliv
 // @match        https://narrow.one/*
 // @icon         https://www.svgrepo.com/show/391746/wrench-alt.svg
-// @downloadURL  
-// @updateURL    
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/testing/Scripts/CustomHealthBar.js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/testing/Scripts/CustomHealthBar.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
