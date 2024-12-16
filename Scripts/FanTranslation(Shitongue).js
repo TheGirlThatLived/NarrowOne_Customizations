@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fan Translation (Shitongue)
 // @namespace    http://tampermonkey.net/
-// @version      20241210
+// @version      20241216
 // @description  Translating menu buttons
 // @author       Copilot
 // @run-at       document-start
