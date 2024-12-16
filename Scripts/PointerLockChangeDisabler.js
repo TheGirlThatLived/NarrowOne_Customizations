@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         PointerLockChange disabler
 // @namespace    https://narrow.one/
-// @version      2024-11-03
+// @version      20241216
 // @description  Disabling Event Listener, so pressing ESC once releases your mouse, and only pressing twice opens the menu
 // @author       Copilot
 // @run-at       document-start
 // @match        https://narrow.one/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @downloadURL  https://github.com/TheGirlThatLived/NarrowOne_Customizations/raw/refs/heads/main/Scripts/PointerLockChangeDisabler.js
+// @updateURL    https://github.com/TheGirlThatLived/NarrowOne_Customizations/raw/refs/heads/main/Scripts/PointerLockChangeDisabler.js
 // @grant        none
 // ==/UserScript==
 
