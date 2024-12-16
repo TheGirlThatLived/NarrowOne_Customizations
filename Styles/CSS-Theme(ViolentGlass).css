@@ -141,13 +141,13 @@ div.main-menu-button-text.whiteBigText.blueNight, h2.dialogTitle.blueNight, h2.p
 #mainMenuLogo{ /* Narrow One Logo */
   scale: 40% !important;
   transform-origin: center !important;
-  top: 35%; left: -2% !important;
+  top: 35% !important; left: -2% !important;
   opacity: 80% !important;
 }
 .main-menu-promo-banner-container{ /* Main Menu Banner */
   scale: 80% !important;
   transform-origin: top !important;
-  top: 75%; left: -2% !important;
+  top: 75% !important; left: -2% !important;
   opacity: 80% !important;
 }
 div.main-menu-username.whiteBigText { /* Title Screen Username */
@@ -163,7 +163,7 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 .weaponSelectionDialog{
   transform-origin: top right !important;
   scale: 150% !important;
-  top: 2%; left: 91% !important;
+  top: 2% !important; left: 91% !important;
 }
 .playersListContainer, .playersListTeamTable, .playersListItem{ /*Players Scoreboard background*/
   background: none !important;
