@@ -6,6 +6,7 @@
     - [ ] Un-disable this by default: `<button class="dialog-button blueNight wrinkledPaper" disabled="" style="--wrinkled-paper-seed: 68970;">Shat</button>`
     - [ ] Glassify the Main Menu buttons
     - [ ] Glassify the HP bar
+    - [ ] HP Bar: Tape it together better, so the elements don't slide away for different screen resolutions
 - Health Bar Percentage.js
     - [ ] Place the Text% inside "health-ui-heart"
     - [ ] Adjust the text font size and visibility on heart background
