@@ -1,11 +1,13 @@
 // ==UserScript==
-// @name         Simple custom health bar
+// @name         Custom Health Bar
 // @namespace    http://tampermonkey.net/
-// @version      2024-12-16
-// @description  Example for editing for making other customizations
-// @author       You
+// @version      20241216_2200
+// @description  Customizable Health Bar
+// @author       Xeltalliv
 // @match        https://narrow.one/*
 // @icon         https://www.svgrepo.com/show/391746/wrench-alt.svg
+// @downloadURL  
+// @updateURL    
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
