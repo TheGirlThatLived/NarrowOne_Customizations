@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Fan Translation (Swiss German)
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-04
+// @version      20241216
 // @description  Translating menu buttons
 // @author       Lolopano
 // @run-at       document-start
 // @match        https://narrow.one/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=narrow.one
+// @icon         https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1e8-1f1ed.svg
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/CSS-Theme(ViolentGlass)%5BAuto-updates%5D.js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/CSS-Theme(ViolentGlass)%5BAuto-updates%5D.js
 // @grant        none
 // ==/UserScript==
 
