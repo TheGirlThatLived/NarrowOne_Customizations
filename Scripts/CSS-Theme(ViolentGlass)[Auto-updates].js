@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      20241215_0907
 // @description  Guest 0187's personalized CSS edits.
-// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Lord Graz; Razgriz; PING 18
+// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
 // @match        https://narrow.one/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=narrow.one
@@ -57,9 +57,8 @@
                         svgElement.setAttribute('width', '14%');
                         svgElement.setAttribute('height', '14%');
                         svgElement.style.animation = 'blinking 60s infinite';
-
                         // Add version text
-                            /* Error: It only works when loading the script for the first time, to work again whole script must be deleted and re-created.
+                            /* // Error: Version text (It only works when loading the script for the first time, to work again whole script must be deleted and re-created.)
                         const versionText = document.createElement('div');
                         versionText.textContent = 'Version: ' + stylesheetVersion;
                         versionText.style.position = 'fixed';
@@ -100,8 +99,26 @@
             }
         });
     }
+    /*
+    function applyMutations(){ // Error: applyMutations crashes computer
+      if(document.querySelector('.crosshair-container')){
+          document.querySelector('.crosshair-container').innerHTML = `
+          <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+          <circle
+          style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2.81047;stroke-dasharray:none;stroke-opacity:1"
+          id="path1"
+          cx="26.458334"
+          cy="26.458334"
+          r="25.053099"
+          />
+          </svg>`;
+      }else{console.error('"crosshair-container" class not found.');}
+    }
+    */
     // Apply changes
     fetchAndApplySVG();
     fetchAndApplyCSS();
     fetchAndApplyHPBar();
+    // const observer = new MutationObserver(applyMutations); // Error: applyMutations crashes computer
+    // observer.observe(document.body, { childList: true, subtree: true }); // Error: applyMutations crashes computer
 })();
