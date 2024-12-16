@@ -157,6 +157,7 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 }
 .scoreOffsetNotificationAnim { /* Kill Notifications */
   text-transform: capitalize;
+  scale: 80% !important;
 }
 
   /* In-Game UI */
@@ -241,7 +242,9 @@ div.health-ui-bar-container { /* Health Bar */
   /* display: none; */
 }
 .flagReturnProgressContainer{
-  scale: 360% !important;
+  transform-origin: center !important;
+  top: 0% !important; left: 0% !important;
+  scale: 400% !important;
 }
 
   /* Misc */
