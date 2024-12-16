@@ -244,7 +244,8 @@ div.health-ui-bar-container { /* Health Bar */
 .flagReturnProgressContainer{
   transform-origin: center !important;
   top: 0% !important; left: 0% !important;
-  scale: 400% !important;
+  transform: translate(-15%, 100%) !important;
+  scale: 300% !important;
 }
 
   /* Misc */
