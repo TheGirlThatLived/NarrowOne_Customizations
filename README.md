@@ -45,6 +45,7 @@ The process has been simplified for a common user that won't need adjustments:
 > ![CopyRAW](https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/Screenshots/CopyRAW.png)
 3. In Tampermonkey, create "New Script", **empty it's contents to blank page** (Ctrl+A -> Delete), then paste the copied script (repeat this step for every new script you're trying to import).
 > ![CreateScript](https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/Screenshots/CreateScript.png)
+4. Restart webbrowser (same applies when updating scripts).
 
 <h5 align="center">
 This is all you need to know to upgrade your Narrow One experience, but I hope it'll raise your curiosity to go around and try to edit this on your own.
