@@ -1,4 +1,4 @@
-/*20241216_0020*/
+/*20241216_0728*/
   /* Replace most of the fonts */
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 *:not(pre, pre *, code, .far, .fa, [class*="fa-"], .glyphicon, [class*="vjs-"], .fab, .fa-github, .fas, .material-icons, .icofont, .typcn, mu, [class*="mu-"], .glyphicon, [class*="icon"], .gog-icons, .google-material-icons) {
@@ -138,6 +138,18 @@ button.dialog-button.blueNight.wrinkledPaper {
   text-align: center;
 }
 div.main-menu-button-text.whiteBigText.blueNight, h2.dialogTitle.blueNight, h2.paged-view-page-header-title, .dialog-text-input, select.dialog-select-input.blueNight{text-transform: capitalize;}
+#mainMenuLogo{ /* Narrow One Logo */
+  scale: 40%;
+  transform-origin: center;
+  top: 35%; left: -2%;
+  opacity: 80% !important;
+}
+.main-menu-promo-banner-container{ /* Main Menu Banner */
+  scale: 80%;
+  transform-origin: top;
+  top: 75%; left: -2%;
+  opacity: 80% !important;
+}
 div.main-menu-username.whiteBigText { /* Title Screen Username */
  font-weight: 800;
  background-image: linear-gradient(to right, rgba(200,0,200,1),rgba(150,0,150,0.4), rgba(0,0,0,0));
@@ -148,6 +160,11 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 }
 
   /* In-Game UI */
+.weaponSelectionDialog{
+  transform-origin: top right;
+  scale: 150%;
+  top: 2%; left: 91%;
+}
 .playersListContainer, .playersListTeamTable, .playersListItem{ /*Players Scoreboard background*/
   background: none !important;
   filter: saturate(80%);
@@ -163,26 +180,77 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   filter: saturate(25%);
   opacity: 80% !important;
 }
-.flag-score-container, .health-ui-container{
-  opacity: 70%;
+.flag-score-container, .health-ui-container, .notificationIconsUiContainer.topleft{ /* Centering the HUD */
+  transform-origin: center;
+  opacity: 60%;
+  position: relative;
+  top: -20%; left: 20%;
+}
+.notificationIconsUiContainer.topleft{ /* Flags status */
+  top: 50%; left: 32%;
+}
+.notificationIconsUiContainer.centerbig{
+  opacity: 40%;
+}
+.flag-score-container{ /* Flag Score box */
+  position: relative;
+  top: 70.4%; left: 58.6%;
+  width: 6%;
+  padding: 0px 0px 0px 80px; margin: 0px;
+  background-image: linear-gradient(to bottom, rgba(150,0,10,0.8), rgba(10,0,250,0.8));
+  outline: 5px solid rgba(30, 25, 25, 0.5);
+  box-shadow: 0 0 10px 10px rgba(30, 25, 25, 0.5);
+  rotate:-70deg;
+  z-index:2;
+}
+.flag-score-item{ /* Flag Score diamonds */
+  position: relative;
+  padding: 0px; margin: 25px 0px 0px 0px;
+  gap: 10px;
+}
+.flag-score-icon{ /* Flag Score shield icon */
+  display: none;
+}
+.health-ui-container.wrinkledPaper{ /* Health Bar box */
+  background: none;
+  position: relative;
+  padding: 0px; margin: 0px;
+  width: 15%; height: 10%;
+  top: 50%; left: 57%;
+  rotate: -70deg;
+  z-index: 3;
+}
+div.health-ui-bar-container { /* Health Bar */
+  position: relative;
+  padding: 0px; margin: 0px;
+  bottom: -60%; left: -32%;
+  scale: 80% 120%;
+}
+.health-ui-heart{ /* Health Bar icon */
+  position: relative;
+  padding: 0px; margin: 0px;
+  width: 15%; height: 10%;
+  scale: 250%;
+  rotate:70deg;
+  z-index: -1;
 }
 .crosshair-container{ /* Crosshair box */
-  
   scale: 60%;
 }
 .crosshair-line{ /* Crosshair */
-  display: none;
+  /* display: none; */
+}
+.flagReturnProgressContainer{
+  scale: 360% !important;
 }
 
   /* Misc */
 .gameAd.desktop, .gameAd.mobile{
   display: none;
-  visibility: hidden;
-  background: none;
 }
 .touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
 div.ownedCoinsContainer.wrinkledPaper.allow-select {
-  visibility: hidden;
+  display: none;
 }
 .dialogCurtain, div.fullScreen{ /* Screen dimming */
   background: none !important;
