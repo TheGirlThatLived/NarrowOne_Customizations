@@ -1,7 +1,7 @@
 <h2 align="center">
   Narrow One Customizations
   
-  [![Discord](https://img.shields.io/discord/855173611409506334?label=Discord&logo=discord&logoColor=FFFFFF&style=for-the-badge)](https://discord.com/invite/j8jnjWx9Uc) | [![YouTube Channel](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/@incredibleviolent?sub_confirmation=1)
+  [![Discord](https://img.shields.io/discord/855173611409506334?label=Discord&logo=discord&logoColor=FFFFFF&style=for-the-badge)](https://discord.com/invite/j8jnjWx9Uc) | [![YouTube Channel](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/@incredibleviolent?sub_confirmation=1) | [![Talent7](https://img.shields.io/badge/More%20Customizations-8A2BE2)](https://github.com/Talent7-source/GameMods)
 </h2>
 
 Thanks to games like Narrow One being written as a HTML5 games, using "CSS Override" addons (my pick: Stylebot on Chrome Store - featured and top rated), you can customize the looks of it, with all the power CSS has in hand.
