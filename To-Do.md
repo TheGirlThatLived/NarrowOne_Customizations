@@ -11,3 +11,4 @@
     - [ ] Place the Text% inside "health-ui-heart"
     - [ ] Adjust the text font size and visibility on heart background
     - [ ] (?) Color the heart icon by player's team color
+    - [ ] (?) Color the "HP % Text" depending on its "HP" (0-20%, 20-80%, 80%-100%)
