@@ -139,19 +139,19 @@ button.dialog-button.blueNight.wrinkledPaper {
 }
 div.main-menu-button-text.whiteBigText.blueNight, h2.dialogTitle.blueNight, h2.paged-view-page-header-title, .dialog-text-input, select.dialog-select-input.blueNight{text-transform: capitalize;}
 #mainMenuLogo{ /* Narrow One Logo */
-  scale: 40%;
-  transform-origin: center;
-  top: 35%; left: -2%;
+  scale: 40% !important;
+  transform-origin: center !important;
+  top: 35%; left: -2% !important;
   opacity: 80% !important;
 }
 .main-menu-promo-banner-container{ /* Main Menu Banner */
-  scale: 80%;
-  transform-origin: top;
-  top: 75%; left: -2%;
+  scale: 80% !important;
+  transform-origin: top !important;
+  top: 75%; left: -2% !important;
   opacity: 80% !important;
 }
 div.main-menu-username.whiteBigText { /* Title Screen Username */
- font-weight: 800;
+ font-weight: 800 !important;
  background-image: linear-gradient(to right, rgba(200,0,200,1),rgba(150,0,150,0.4), rgba(0,0,0,0));
  animation: wobbling2 1s ease-in-out infinite;
 }
@@ -161,81 +161,81 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 
   /* In-Game UI */
 .weaponSelectionDialog{
-  transform-origin: top right;
-  scale: 150%;
-  top: 2%; left: 91%;
+  transform-origin: top right !important;
+  scale: 150% !important;
+  top: 2%; left: 91% !important;
 }
 .playersListContainer, .playersListTeamTable, .playersListItem{ /*Players Scoreboard background*/
   background: none !important;
-  filter: saturate(80%);
+  filter: saturate(80%) !important;
 }
 .playersListTeam.wrinkledPaper{ /*Players Scoreboard (rows background and text)*/
   background: none !important;
 }
 .playersListContainer thead{ /* Scoreboard: Table Head */
   opacity: 75% !important;
-  clip-path: polygon(0 50%, 10% 0, 98% 10%, 100% 90%, 90% 100%, 15% 100%, 0 50%);
+  clip-path: polygon(0 50%, 10% 0, 98% 10%, 100% 90%, 90% 100%, 15% 100%, 0 50%) !important;
 }
 .gameOverStatsTable, .gameoverStatsContainer{ /* End game stats screen */
-  filter: saturate(25%);
-  opacity: 80% !important;
+  filter: saturate(25%) !important;
+  opacity: 80% !important !important;
 }
 .flag-score-container, .health-ui-container, .notificationIconsUiContainer.topleft{ /* Centering the HUD */
-  transform-origin: center;
-  opacity: 60%;
-  position: relative;
-  top: -20%; left: 20%;
+  transform-origin: center !important;
+  opacity: 60% !important;
+  position: relative !important;
+  top: -20% !important; left: 20% !important;
 }
 .notificationIconsUiContainer.topleft{ /* Flags status */
-  top: 50%; left: 32%;
+  top: 50% !important; left: 32% !important;
 }
 .notificationIconsUiContainer.centerbig{
-  opacity: 40%;
+  opacity: 40% !important;
 }
 .flag-score-container{ /* Flag Score box */
-  position: relative;
-  top: 70.4%; left: 58.6%;
-  width: 6%;
-  padding: 0px 0px 0px 80px; margin: 0px;
+  position: relative !important;
+  top: 70.4% !important; left: 58.6% !important;
+  width: 6% !important;
+  padding: 0px 0px 0px 80px !important; margin: 0px !important;
   background-image: linear-gradient(to bottom, rgba(150,0,10,0.8), rgba(10,0,250,0.8));
   outline: 5px solid rgba(30, 25, 25, 0.5);
   box-shadow: 0 0 10px 10px rgba(30, 25, 25, 0.5);
-  rotate:-70deg;
-  z-index:2;
+  rotate:-70deg !important;
+  z-index:2 !important;
 }
 .flag-score-item{ /* Flag Score diamonds */
-  position: relative;
-  padding: 0px; margin: 25px 0px 0px 0px;
-  gap: 10px;
+  position: relative !important;
+  padding: 0px !important; margin: 25px 0px 0px 0px !important;
+  gap: 10px !important;
 }
 .flag-score-icon{ /* Flag Score shield icon */
-  display: none;
+  display: none !important;
 }
 .health-ui-container.wrinkledPaper{ /* Health Bar box */
-  background: none;
-  position: relative;
-  padding: 0px; margin: 0px;
-  width: 15%; height: 10%;
-  top: 50%; left: 57%;
-  rotate: -70deg;
-  z-index: 3;
+  background: none !important;
+  position: relative !important;
+  padding: 0px !important; margin: 0px !important;
+  width: 15% !important; height: 10% !important;
+  top: 50% !important; left: 57% !important;
+  rotate: -70deg !important;
+  z-index: 3 !important;
 }
 div.health-ui-bar-container { /* Health Bar */
-  position: relative;
-  padding: 0px; margin: 0px;
-  bottom: -60%; left: -32%;
-  scale: 80% 120%;
+  position: relative !important;
+  padding: 0px !important; margin: 0px !important;
+  bottom: -60% !important; left: -32% !important;
+  scale: 80% 120% !important;
 }
 .health-ui-heart{ /* Health Bar icon */
-  position: relative;
-  padding: 0px; margin: 0px;
-  width: 15%; height: 10%;
-  scale: 250%;
-  rotate:70deg;
-  z-index: -1;
+  position: relative !important;
+  padding: 0px !important; margin: 0px !important;
+  width: 15% !important; height: 10% !important;
+  scale: 250% !important;
+  rotate:70deg !important;
+  z-index: -1 !important;
 }
 .crosshair-container{ /* Crosshair box */
-  scale: 60%;
+  scale: 60% !important;
 }
 .crosshair-line{ /* Crosshair */
   /* display: none; */
@@ -246,11 +246,11 @@ div.health-ui-bar-container { /* Health Bar */
 
   /* Misc */
 .gameAd.desktop, .gameAd.mobile{
-  display: none;
+  display: none !important;
 }
 .touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
 div.ownedCoinsContainer.wrinkledPaper.allow-select {
-  display: none;
+  display: none !important;
 }
 .dialogCurtain, div.fullScreen{ /* Screen dimming */
   background: none !important;
