@@ -1,4 +1,4 @@
-/*20241216_0020*/
+/*20241215_0722*/
   /* Replace most of the fonts */
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 *:not(pre, pre *, code, .far, .fa, [class*="fa-"], .glyphicon, [class*="vjs-"], .fab, .fa-github, .fas, .material-icons, .icofont, .typcn, mu, [class*="mu-"], .glyphicon, [class*="icon"], .gog-icons, .google-material-icons) {
@@ -138,6 +138,18 @@ button.dialog-button.blueNight.wrinkledPaper {
   text-align: center;
 }
 div.main-menu-button-text.whiteBigText.blueNight, h2.dialogTitle.blueNight, h2.paged-view-page-header-title, .dialog-text-input, select.dialog-select-input.blueNight{text-transform: capitalize;}
+#mainMenuLogo{ /* Narrow One Logo */
+  scale: 40%;
+  transform-origin: center;
+  top: 39%; left: -2%;
+  opacity: 80% !important;
+}
+.main-menu-promo-banner-container{ /* Main Menu Banner */
+  scale: 80%;
+  transform-origin: top;
+  top: 75%; left: -2%;
+  opacity: 80% !important;
+}
 div.main-menu-username.whiteBigText { /* Title Screen Username */
  font-weight: 800;
  background-image: linear-gradient(to right, rgba(200,0,200,1),rgba(150,0,150,0.4), rgba(0,0,0,0));
@@ -164,25 +176,55 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   opacity: 80% !important;
 }
 .flag-score-container, .health-ui-container{
-  opacity: 70%;
+  opacity: 60%;
+  position: relative;
+  top: -20%;
+  left: 20%;
+}
+.flag-score-container{
+  width: 12%;
+  padding: 0px; margin: 0px;
+  background-image: linear-gradient(to bottom, rgba(150,0,10,0.8), rgba(10,0,250,0.8));
+  box-shadow: 0 0 10px 5px rgba(30, 25, 25, 0.5);
+  rotate:-70deg;
+  top: 50%; left: 53%;
+  z-index:2;
+}
+.flag-score-item{
+  position: relative;
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+  gap: 10px
+  
+}
+.flag-score-icon{
+  display: none;
+}
+.health-ui-container.wrinkledPaper {
+  scale: 90%;
+  rotate: -70deg;
+  --wrinkled-paper-wrinkle-size: 20px;
+  z-index: 3;
+}
+.health-ui-heart{
+  scale: 500%;
+  rotate:70deg;
+  top: 3%; left: -2%;
 }
 .crosshair-container{ /* Crosshair box */
-  
   scale: 60%;
 }
 .crosshair-line{ /* Crosshair */
-  display: none;
+  /* display: none; */
 }
 
   /* Misc */
 .gameAd.desktop, .gameAd.mobile{
   display: none;
-  visibility: hidden;
-  background: none;
 }
 .touchListener.focus{cursor: default;} /* Fixes invisible mouse while pointerLockChange is disabled. */
 div.ownedCoinsContainer.wrinkledPaper.allow-select {
-  visibility: hidden;
+  display: none;
 }
 .dialogCurtain, div.fullScreen{ /* Screen dimming */
   background: none !important;
