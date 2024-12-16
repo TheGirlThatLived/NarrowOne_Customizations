@@ -19,12 +19,12 @@ const healthBarObserver = new MutationObserver((mutationsList) => {
             const currentWidth = observedHealthBarPart.style.width;
 
             console.log('Width changed to:', currentWidth);
-            healthTextDisplayElement.textContent = currentWidth;
+            heathTextDisplayElement.textContent = currentWidth;
         }
     }
 });
 let observedHealthBarPart = null;
-let healthTextDisplayElement = document.createElement("div");
+let heathTextDisplayElement = document.createElement("div");
 
 const isHealthBar = (elem) => elem.classList.contains("health-ui-container");
 const gameWrapperObserver = new MutationObserver((mutationsList) => {
@@ -46,9 +46,9 @@ gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
 
 function addHealthBar(element) {
     console.log("Added health bar", element);
-    element.append(healthTextDisplayElement);
+    element.append(heathTextDisplayElement);
 
-    observedHealthBarPart = document.getElementsByClassName("health-ui-heart")[0];
+    observedHealthBarPart = document.getElementsByClassName("health-ui-bar clip")[0];
     healthBarObserver.observe(observedHealthBarPart, {
         attributes: true,
         attributeFilter: ['style']
@@ -56,6 +56,6 @@ function addHealthBar(element) {
 }
 function removeHealthBar(element) {
     console.log("Removed health bar", element);
-    healthTextDisplayElement.remove();
+    heathTextDisplayElement.remove();
     healthBarObserver.disconnect();
 }
