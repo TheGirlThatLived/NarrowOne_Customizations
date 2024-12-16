@@ -13,7 +13,7 @@ Works on this addon started around 2nd of November, when PING 18 [asked how to s
 
 The project eventually snowballed from a meme edit into something more: Lolopano took the FanTranslation template and made an actual game translation, more people began getting involved, and I figured more players might enjoy this setup - so I moved my memes to separate scripts and started working on Violent Glass (something that could be aesthetically pleasing: unified on a theme of glass and shades of violet). Stylesheets applied through Tampermonkey were less forgiving, which Pratik, Systummm and Slipper King helped me troubleshoot. Eventually it was diagnosed that Stylebot automatically adds "!important" tags on styles, which Tampermonkey doesn't, and it can be fixed.
 
-Without Xeltalliv, this theme might as well remain existing as stylesheet for StyleBot - he contributes the most interesting part of this package: HealthBarPercentage.js, on top of that providing Quality of Life scripts. And without **you** - it'll 
+Without Xeltalliv, this theme might as well remain existing as stylesheet for StyleBot - he contributes the most interesting part of this package: HealthBarPercentage.js, on top of that providing Quality of Life scripts. And without **you** - it'll get boring, so if you want to make your own CSS, please upload it to this GitHub repository for everyone to appreciate. I list current issues in [To-Do.md](https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/To-Do.md) file, if you want to contribute fixes feel free to make a Pull Request!
 
 ### Features:
 > In-Game looks (minimalist design for tunnel vision)
