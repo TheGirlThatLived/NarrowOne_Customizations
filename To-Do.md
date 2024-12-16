@@ -7,8 +7,9 @@
     - [ ] Glassify the Main Menu buttons
     - [ ] Glassify the HP bar
     - [ ] HP Bar: Tape it together better, so the elements don't slide away for different screen resolutions
+    > Since you have rotated elements and are trying to base some of the dimensions/positions on screen width and some on screen height, that isn't going to work. Instead, you can try basing relative sizes of everything on the same value. A good value to pick is probably screen's vertical height. So instead of "height: 50%", use "50vh". And instead of "width: 50%", use "88.88vh" (which is 50 * 16/9). Switching everything to this approach seems to fix most elements in place without affecting the looks.
 - Health Bar Percentage.js
-    - [ ] Place the Text% inside "health-ui-heart"
-    - [ ] Adjust the text font size and visibility on heart background
+    - [x] Place the Text% inside "health-ui-heart"
+    - [x] Adjust the text font size and visibility on heart background
     - [ ] (?) Color the heart icon by player's team color
-    - [ ] (?) Color the "HP % Text" depending on its "HP" (0-20%, 20-80%, 80%-100%)
+    - [x] (?) Color the "HP % Text" depending on its "HP" (0-20%, 20-80%, 80%-100%)
