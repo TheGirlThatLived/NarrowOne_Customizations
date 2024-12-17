@@ -6,8 +6,8 @@
 // @author       Xeltalliv
 // @match        https://narrow.one/*
 // @icon         https://www.svgrepo.com/show/375090/replace.svg
-// @downloadURL  
-// @updateURL    
+// @downloadURL  https://github.com/TheGirlThatLived/NarrowOne_Customizations/raw/refs/heads/main/Scripts/ImageSubstitution
+// @updateURL    https://github.com/TheGirlThatLived/NarrowOne_Customizations/raw/refs/heads/main/Scripts/ImageSubstitution
 // @grant        none
 // ==/UserScript==
 
