@@ -7,8 +7,8 @@
 // @run-at       document-start
 // @match        https://narrow.one/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=narrow.one
-// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/CSS-Theme(Wordington)%5BAuto-updates%5D.js
-// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/CSS-Theme(Wordington)%5BAuto-updates%5D.js
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/Theme(Wordington).js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/Theme(Wordington).js
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // ==/UserScript==
@@ -55,7 +55,7 @@
     // Content
     async function fetchAndApplyCSS() {
         //addStyleFromURL('');
-        addConstructedStyleFromURL('');
+        addConstructedStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/refs/heads/testing/Scripts/Theme(Wordington).js');
     }
     // Apply changes
     fetchAndApplyCSS();
