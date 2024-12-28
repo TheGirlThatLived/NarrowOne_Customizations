@@ -3,6 +3,8 @@ Moderating Pelican Party Discord I found it hard keeping track of good suggestio
 __Demands that start with "(?)"__ are unfinished writings, so shouldn't be considered yet.
 
 ## Quality of Life improvements & bug fixes
+- [ ] Fixing dead players flag-carrying: Both the laggy/disconnected players still holding the flag while dead, and teleporting flag to their spawn - fixed by: "Players should just always drop the flag on death and be unable to pick it up in the dead state" (https://discord.com/channels/519477170964267008/1115057759243735110).
+- [ ] Fixing players +500% Health while they have N1 tab inactive.
 - [ ] 3rd Person Camera (not to confuse with 2nd Person Camera used for spectating) - The camera is swaying from left to right, player model often appearing in front of crosshair obstructing view. Camera needs to be fixed to position behind player character, and crosshair adjusted for the aim offset that occurs in this camera mode (preferably aiming point being in the center of screen same as for 1st person, to not confuse 3rd party HUD crosshairs).
 - [ ] 3rd Person Raycasts collide with team-specific colliders causing arrows to fly in wrong directions (https://discord.com/channels/519477170964267008/1275455977268973599/1275455977268973599)
 - [ ] More separate and distinctive audio cues for in-game events. (https://discord.com/channels/519477170964267008/1238898904624402543/1238898904624402543)
