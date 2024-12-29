@@ -11,6 +11,7 @@
     - [ ] Un-disable this by default: `<button class="dialog-button blueNight wrinkledPaper" disabled="" style="--wrinkled-paper-seed: 68970;">Shat</button>`
     - [ ] Glassify the Main Menu buttons and hidden sub-menus (personal stats; squad window), set zoom to  100% and override UI menus scaling.
     > https://discord.com/channels/519477170964267008/1302074751510118510/1318390165798129785
+    > 
     > https://discord.com/channels/519477170964267008/1302074751510118510/1322249011184537660
     - [ ] Glassify the HP bar
     - [ ] HP Bar: Tape it together better, so the elements don't slide away for different screen resolutions
