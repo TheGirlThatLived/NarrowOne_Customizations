@@ -7,8 +7,8 @@
 // @run-at       document-start
 // @match        https://narrow.one/
 // @icon         https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg
-// @downloadURL  
-// @updateURL    
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/testing/Styles/CSS-Theme(DVDScreensaver).js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/testing/Styles/CSS-Theme(DVDScreensaver).js
 // ==/UserScript==
 
 const s = new CSSStyleSheet();
