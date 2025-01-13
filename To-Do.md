@@ -19,5 +19,20 @@
 - Health Bar Percentage.js
     - [x] Place the Text% inside "health-ui-heart"
     - [x] Adjust the text font size and visibility on heart background
-    - [ ] (?) Color the heart icon by player's team color
+    - [ ] ~~(?) Color the heart icon by player's team color~~
+    - [ ] Color the diamond borders
     - [x] (?) Color the "HP % Text" depending on its "HP" (0-20%, 20-80%, 80%-100%)
+```
+/* Team 3 - Cyan color */
+.flag-score-item:nth-of-type(1) .flag-score-point-el.returned .center-dot:nth-of-type(3) {
+  --team-color: #ff00f7; / Team 3 color (blue) /
+  fill: var(--team-color);
+  stroke: var(--team-color);
+}
+/* Team 6 - Purple color (6th center-dot) */
+.flag-score-item:nth-of-type(2) .flag-score-point-el.returned .center-dot:nth-of-type(3) {
+  --team-color: cyan; / Team 6 color (purple) */
+  fill: var(--team-color);
+  stroke: var(--team-color);
+}
+```
