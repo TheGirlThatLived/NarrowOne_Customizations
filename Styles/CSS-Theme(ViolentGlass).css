@@ -194,8 +194,11 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   opacity: 40% !important;
 }
 .flag-score-container{ /* Flag Score box */
-  position: relative !important;
-  top: 70.4% !important; left: 58.6% !important;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  position: absolute !important;
+  top: 71.8% !important; left: 58.6% !important;
   width: 6% !important;
   padding: 0px 0px 0px 80px !important; margin: 0px !important;
   background-image: linear-gradient(to bottom, rgba(150,0,10,0.8), rgba(0,150,250,0.8));
@@ -206,7 +209,7 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 }
 .flag-score-item{ /* Flag Score diamonds */
   position: relative !important;
-  padding: 0px !important; margin: 25px 0px 0px 0px !important;
+  padding: 0px !important; margin: 0px !important;
   gap: 10px !important;
 }
 .flag-score-icon{ /* Flag Score shield icon */
@@ -214,10 +217,10 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
 }
 .health-ui-container.wrinkledPaper{ /* Health Bar box */
   background: none !important;
-  position: relative !important;
+  position: absolute !important;
   padding: 0px !important; margin: 0px !important;
   width: 15% !important; height: 10% !important;
-  top: 50% !important; left: 57% !important;
+  top: 60% !important; left: 57% !important;
   rotate: -70deg !important;
   z-index: 3 !important;
 }
