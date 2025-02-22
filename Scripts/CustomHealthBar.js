@@ -67,6 +67,7 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
                 removeHealthBar(removeNode);
                 healthBarObserver.disconnect();
                 healthBarColorObserver.disconnect();
+                healthBarVisibilityObserver.disconnect();
             }
             //console.log('Added', mutation.addedNodes, "Removed", mutation.removedNodes);
         }
