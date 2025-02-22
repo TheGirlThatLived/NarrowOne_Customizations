@@ -15,8 +15,8 @@
     'use strict';
 
     const replacementTable = {
-        "static/img/hudIcons/flagRed.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagRed.svg",
-        "static/img/hudIcons/flagBlue.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagBlue.svg",
+        "static/img/hudIcons/flags/red.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagRed.svg",
+        "static/img/hudIcons/flags/blue.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagBlue.svg",
         "static/img/hudIcons/playerIcon.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/playerIcon.svg",
     }
     const originalSrcDescriptor = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, "src");
