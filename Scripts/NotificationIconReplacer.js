@@ -12,6 +12,9 @@
 // @grant        none
 // ==/UserScript==
 
+(function() {
+'use strict';
+
 // Images shown here are provided as example
 // Empty strings = keep as is
 const mappingsFromTo = {
@@ -63,3 +66,4 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
     }
 });
 gameWrapperObserver.observe(document.getElementById("gameWrapper"), { childList: true });
+})();

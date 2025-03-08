@@ -12,6 +12,9 @@
 // @run-at       document-start
 // ==/UserScript==
 
+(function() {
+'use strict';
+
 const healthBarObserver = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
@@ -130,3 +133,4 @@ css.replaceSync(`
 window.addEventListener("load", function () {
     document.adoptedStyleSheets = [...document.adoptedStyleSheets, css];
 });
+})();

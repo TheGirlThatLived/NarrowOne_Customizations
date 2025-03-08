@@ -12,6 +12,9 @@
 // @grant        none
 // ==/UserScript==
 
+(function() {
+'use strict';
+
 const healthBarObserver = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
@@ -80,3 +83,4 @@ function removeHealthBar(element) {
     //console.log("Removed health bar", element);
     healthTextDisplayElement.remove();
 }
+})();
