@@ -12,6 +12,9 @@
 // @run-at       document-start
 // ==/UserScript==
 
+(function() {
+'use strict';
+
 const isFlagScore = (elem) => elem && elem.classList.contains("flag-score-container");
 const gameWrapperObserver = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
@@ -71,3 +74,4 @@ css.replaceSync(`
 window.addEventListener("load", function () {
     document.adoptedStyleSheets = [...document.adoptedStyleSheets, css]
 });
+})();

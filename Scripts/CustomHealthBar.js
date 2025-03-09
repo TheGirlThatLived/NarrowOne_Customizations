@@ -12,6 +12,9 @@
 // @run-at       document-start
 // ==/UserScript==
 
+(function() {
+'use strict';
+
 const healthBarObserver = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
@@ -67,6 +70,7 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
                 removeHealthBar(removeNode);
                 healthBarObserver.disconnect();
                 healthBarColorObserver.disconnect();
+                healthBarVisibilityObserver.disconnect();
             }
             //console.log('Added', mutation.addedNodes, "Removed", mutation.removedNodes);
         }
@@ -129,3 +133,4 @@ css.replaceSync(`
 window.addEventListener("load", function () {
     document.adoptedStyleSheets = [...document.adoptedStyleSheets, css];
 });
+})();
