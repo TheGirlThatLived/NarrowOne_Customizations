@@ -4,7 +4,12 @@
   [![Discord](https://img.shields.io/discord/855173611409506334?label=Discord&logo=discord&logoColor=FFFFFF&style=for-the-badge)](https://discord.com/invite/j8jnjWx9Uc) | [![YouTube Channel](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/@incredibleviolent?sub_confirmation=1) | [![Talent7](https://img.shields.io/badge/More%20Customizations-8A2BE2)](https://github.com/Talent7-source/GameMods)
 </h2>
 
-Thanks to games like Narrow One being written as a HTML5 games, using "CSS Override" addons (my pick: Stylebot on Chrome Store - featured and top rated), you can customize the looks of it, with all the power CSS has in hand.
+Thanks to games like Narrow One being written as a HTML5 games, using "CSS Override" addons (my pick: Stylebot and Tampermonkey on Chrome Store - featured and top rated), you can customize the looks of it, with all the power CSS has in hand.
+
+1. [Contributors and development history](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main#contributors)
+2. [Features](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main#features)
+3. [Installation](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main#installation)
+4. [Useful resources (for editing purposes)](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main#useful-resources-for-editors-only)
 
 ### Contributors:
 ***[Xeltalliv](https://www.youtube.com/@Xeltalliv); Slipper King; [Pratik](https://www.youtube.com/@Ani-pratik); [Systummm](https://www.youtube.com/@systummm-N1); [Lolopano](https://www.youtube.com/@lolopano); [Blazyst](https://www.youtube.com/@Blazyst-gaming); Riptide; Razgriz; PING 18***
