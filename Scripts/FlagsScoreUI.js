@@ -36,18 +36,8 @@ function addFlagScore(element) {
     //console.log("Added flag score container");
     const flagRedSvg = new Image();
     const flagBlueSvg = new Image();
-    flagRedSvg.src = "data:image/svg+xml," +
-        encodeURIComponent(`<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 241.205 241.205" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="64.708 76.115 123.931 85.054 204.563 75.075 217.958 80.098 197.2 134.65 185.028 146.516 190.051 158.795 170.372 212.509 131.983 204.916 88.933 211.664 57.214 203.446 42.32 199.02 37.679 230.237 20.935 226.888 52.749 67.261 42.952 60.306 52.749 43.819 68.545 12.485 73.4 46.61 77.404 64.795 64.212 68.396 64.708 76.115" style="fill: white;"/>
-  <path d="M92.179,191.812s-38.547-6.477-45.547-9.208L62.4,91.867c9.575,3.121,57.012,9.679,57.012,9.679l30.177-4.174,32.924-6.251,16.52-1.83-17.2,38.956-40.715,12.346,32.372,5.551-2.419,8.744-18.418,8.931,15.07,2.79-3.349,12.837-4.824,12.234c-8.827-2.248-27.007-3.378-27.007-3.378l-26.674,2.373Z" style="fill: rgb(216, 49, 45);"/>
-</svg>`);
-    flagBlueSvg.src = "data:image/svg+xml," +
-            encodeURIComponent(`<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 241.205 241.205" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="64.708 76.115 123.931 85.054 204.563 75.075 217.958 80.098 197.2 134.65 185.028 146.516 190.051 158.795 170.372 212.509 131.983 204.916 88.933 211.664 57.214 203.446 42.32 199.02 37.679 230.237 20.935 226.888 52.749 67.261 42.952 60.306 52.749 43.819 68.545 12.485 73.4 46.61 77.404 64.795 64.212 68.396 64.708 76.115" style="fill: white;"/>
-  <path d="M92.179,191.812s-38.547-6.477-45.547-9.208L62.4,91.867c9.575,3.121,57.012,9.679,57.012,9.679l30.177-4.174,32.924-6.251,16.52-1.83-17.2,38.956-40.715,12.346,32.372,5.551-2.419,8.744-18.418,8.931,15.07,2.79-3.349,12.837-4.824,12.234c-8.827-2.248-27.007-3.378-27.007-3.378l-26.674,2.373Z" style="fill: rgb(36, 163, 221);"/>
-</svg>`);
+    flagRedSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagRed.svg";
+    flagBlueSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagBlue.svg";
     flagRedSvg.classList.add("flag-score-icon");
     flagBlueSvg.classList.add("flag-score-icon");
     element.children[0].children[0].style.display = "none";
