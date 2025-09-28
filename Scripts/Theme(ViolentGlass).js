@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      20241216_2230
 // @description  Guest 0187's personalized CSS edits loader.
-// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Razgriz; PING 18
+// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Razgriz; PING 18; Ansy
 // @run-at       document-start
 // @match        https://narrow.one/
 // @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/ViolentGlass.svg
@@ -75,11 +75,27 @@
             animation: blinking 60s infinite;
         }
         `);
-        const imgElement2 = document.createElement('img');
-        imgElement2.src = 'https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/crosshair(greenDot).svg';
-        document.body.appendChild(imgElement2);
+        //const imgElement2 = document.createElement('img');
+        //imgElement2.src = 'https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/crosshair(greenDot).svg';
+        //document.body.appendChild(imgElement2);
         //document.querySelector('.crosshair-container');
         //document.querySelector('.crosshair-container').innerHTML = ``;
+        const crosshair = document.createElement('div');
+        crosshair.id = 'crosshair-dot';
+        document.body.appendChild(crosshair);
+        Object.assign(crosshair.style, {
+        position: 'fixed',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: '4px',
+        height: '4px',
+        backgroundColor: '#00FF00',
+        border: '2px solid black',
+        borderRadius: '50%',
+        zIndex: '999999',
+        pointerEvents: 'none',
+    });
     }
     function fetchAndApplyJS() {
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
