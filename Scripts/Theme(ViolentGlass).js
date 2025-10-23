@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      20251023_2230
 // @description  Guest 0187's personalized CSS edits loader.
-// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Blazyst; Riptide; Razgriz; PING 18; Ansy
+// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
 // @match        https://narrow.one/*
 // @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/ViolentGlass.svg
