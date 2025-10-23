@@ -12,7 +12,7 @@ Thanks to games like Narrow One being written as a HTML5 games, using "CSS Overr
 4. [Useful resources (for editing purposes)](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main#useful-resources-for-editors-only)
 
 ### Contributors:
-***[Xeltalliv](https://www.youtube.com/@Xeltalliv); Slipper King; [Pratik](https://www.youtube.com/@Ani-pratik); [Systummm](https://www.youtube.com/@systummm-N1); [Lolopano](https://www.youtube.com/@lolopano); [Blazyst](https://www.youtube.com/@Blazyst-gaming); Riptide; Razgriz; PING 18***
+***[Xeltalliv](https://www.youtube.com/@Xeltalliv); Slipper King; [Pratik](https://www.youtube.com/@Ani-pratik); [Systummm](https://www.youtube.com/@systummm-N1); [Lolopano](https://www.youtube.com/@lolopano); [Blazyst](https://www.youtube.com/@Blazyst-gaming); [Ansy](https://www.youtube.com/@Ansy) Riptide; Razgriz; PING 18***
 
 Works on this addon started around 2nd of November, when PING 18 [asked how to save CSS changes](https://discord.com/channels/519477170964267008/824943883178737715/1301959478337339422) while playing with DevTools inspector. He wasn't first to "inspect element" of the page for the funnies, but I happened so to be in the chat that day, and wanted to actually answer his question. My CSS experience at that time was ending on downloading Dark Reader and changing website fonts to my system's default, but I researched StyleBot addon, and I was having fun animating loadout icons. I started taking first steps into Tampermonkey as well, thus making FanTranslation addon.
 
