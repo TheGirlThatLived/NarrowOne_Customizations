@@ -46,7 +46,8 @@ Without Xeltalliv, this theme might as well remain existing as stylesheet for St
 The process has been simplified for a common user that won't need adjustments:
 
 1. Install Tampermonkey into your webbrowser (available in your webbrowser's Addon store), or one of its open-source alternatives.
-2. Open [/Scripts](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main/Scripts) folder, and click on the scripts that you wanna install. Find a button to copy them as RAW file.
+2. For Chromium-based webbrowsers, follow [this guide](https://www.tampermonkey.net/faq.php?locale=en#Q209) to get your scripts working.
+3. Open [/Scripts](https://github.com/TheGirlThatLived/NarrowOne_Customizations/tree/main/Scripts) folder, and click on the scripts that you wanna install. Find a button to copy them as RAW file. All screenshots in this README.md section refer to "Theme(ViolentGlass).js" if that's what you want to install, other scripts are parts of it that you might need to modify before use or at least read their descriptions at their top section.
 > ![CopyRAW](https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/Screenshots/CopyRAW.png)
 3. In Tampermonkey, create "New Script", **empty it's contents to blank page** (Ctrl+A -> Delete), then paste the copied script (repeat this step for every new script you're trying to import).
 > ![CreateScript](https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Assets/Screenshots/CreateScript.png)
