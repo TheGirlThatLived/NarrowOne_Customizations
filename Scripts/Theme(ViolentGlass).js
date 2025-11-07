@@ -75,32 +75,12 @@
             animation: blinking 60s infinite;
         }
         `);
-        //const imgElement2 = document.createElement('img');
-        //imgElement2.src = 'https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/crosshair(greenDot).svg';
-        //document.body.appendChild(imgElement2);
-        //document.querySelector('.crosshair-container');
-        //document.querySelector('.crosshair-container').innerHTML = ``;
-        const crosshair = document.createElement('div');
-        crosshair.id = 'crosshair-dot';
-        document.body.appendChild(crosshair);
-        Object.assign(crosshair.style, {
-        position: 'fixed',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        width: '4px',
-        height: '4px',
-        backgroundColor: '#00FF00',
-        border: '2px solid black',
-        borderRadius: '50%',
-        zIndex: '999999',
-        pointerEvents: 'none',
-    });
     }
     function fetchAndApplyJS() {
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/FlagsScoreUI.js');
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar.js');
+        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/DotCrosshair.js');
     }
 
     // Apply changes
