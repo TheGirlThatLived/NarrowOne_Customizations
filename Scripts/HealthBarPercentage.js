@@ -48,9 +48,6 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
         }
     }
 });
-gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
-    childList: true
-});
 
 let healthTextDisplayElement = null;
 function updateHealthBar(numericValue, currentWidth) {
@@ -82,5 +79,16 @@ function addHealthBar(element) {
 function removeHealthBar(element) {
     //console.log("Removed health bar", element);
     healthTextDisplayElement.remove();
+}
+
+function init() {
+    gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
+        childList: true
+    });
+}
+if (document.readyState == "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
 }
 })();

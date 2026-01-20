@@ -31,9 +31,6 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
         }
     }
 });
-gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
-    childList: true
-});
 
 function addFlagScore(element) {
     //console.log("Added flag score container");
@@ -61,7 +58,16 @@ css.replaceSync(`
     margin: -12px 0px -2px -7px;
 }
 `);
-window.addEventListener("load", function () {
-    document.adoptedStyleSheets = [...document.adoptedStyleSheets, css]
-});
+
+function init() {
+    gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
+        childList: true
+    });
+    document.adoptedStyleSheets = [...document.adoptedStyleSheets, css];
+}
+if (document.readyState == "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}
 })();

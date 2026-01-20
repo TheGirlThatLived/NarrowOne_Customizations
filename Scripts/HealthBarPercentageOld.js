@@ -12,6 +12,8 @@
 // @grant        none
 // ==/UserScript==
 
+(function() {
+'use strict';
 const healthBarObserver = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
@@ -40,9 +42,6 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
         }
     }
 });
-gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
-    childList: true
-});
 
 function addHealthBar(element) {
     console.log("Added health bar", element);
@@ -59,3 +58,15 @@ function removeHealthBar(element) {
     healthTextDisplayElement.remove();
     healthBarObserver.disconnect();
 }
+
+function init() {
+    gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
+        childList: true
+    });
+}
+if (document.readyState == "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}
+})();

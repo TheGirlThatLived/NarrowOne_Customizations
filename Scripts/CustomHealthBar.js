@@ -39,6 +39,7 @@ const healthBarVisibilityObserver = new MutationObserver((mutationsList) => {
         }
     }
 });
+let gameWrapper = null;
 let observedHeathBarPart = null;
 let healthBarElement = null;
 const isHealthBar = (elem) => elem && elem.classList.contains("health-ui-container");
@@ -75,10 +76,6 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
             //console.log('Added', mutation.addedNodes, "Removed", mutation.removedNodes);
         }
     }
-});
-const gameWrapper = document.getElementById("gameWrapper");
-gameWrapperObserver.observe(gameWrapper, {
-    childList: true
 });
 
 let customHealthBarOuter = null;
@@ -130,7 +127,17 @@ css.replaceSync(`
     overflow: hidden;
 }
 `);
-window.addEventListener("load", function () {
+
+function init() {
+    gameWrapper = document.getElementById("gameWrapper");
+    gameWrapperObserver.observe(gameWrapper, {
+        childList: true
+    });
     document.adoptedStyleSheets = [...document.adoptedStyleSheets, css];
-});
+}
+if (document.readyState == "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}
 })();

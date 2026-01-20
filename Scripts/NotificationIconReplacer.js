@@ -65,5 +65,15 @@ const gameWrapperObserver = new MutationObserver((mutationsList) => {
         }
     }
 });
-gameWrapperObserver.observe(document.getElementById("gameWrapper"), { childList: true });
+
+function init() {
+    gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
+        childList: true
+    });
+}
+if (document.readyState == "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}
 })();
