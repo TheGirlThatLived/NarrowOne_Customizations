@@ -7,8 +7,8 @@
 // @run-at       document-start
 // @match        https://narrow.one/*
 // @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/ViolentGlass.svg
-// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/CSS-Theme(ViolentGlass)%5BAuto-updates%5D.js
-// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/CSS-Theme(ViolentGlass)%5BAuto-updates%5D.js
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/Theme(ViolentGlass).js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/Theme(ViolentGlass).js
 // @grant        unsafeWindow
 // @connect      TheGirlThatLived.github.io
 // ==/UserScript==
