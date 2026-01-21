@@ -6,6 +6,8 @@
 // @author       Ansy; Xeltalliv
 // @match        https://narrow.one/*
 // @icon         https://www.svgrepo.com/show/172717/target-design.svg
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/DotCrosshair.js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/DotCrosshair.js
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
