@@ -1,17 +1,16 @@
 // ==UserScript==
-// @name         Dot crossahir
+// @name         Dot crosshair
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Affiche un petit point blanc au centre de l'écran pour viser plus facilement dans Narrow One
-// @author       Ansy; Incredible_Violent; Xeltalliv
+// @description  Swap your humongous crosshair for a small dot (CSS customizable appearance) ~"Aim small, miss small"
+// @author       Ansy; Xeltalliv
 // @match        https://narrow.one/*
+// @icon         https://www.svgrepo.com/show/172717/target-design.svg
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
 
-// Ansy - original script
-// Incredible_Violent - customized css
-// Xeltalliv - expanded to make it dynamically appear and disappear
+// Ansy's script expanded by Xeltalliv to make it dynamically appear in matches and disappear outside of them
 
 (function() {
     'use strict';
@@ -45,13 +44,13 @@
                 position: 'fixed',
                 top: '50%',
                 left: '50%',
-                transform: 'translate(-50%, -50%)',
+                transform: 'translate(-50%, -50%)', // Edit your crosshair appearance below
                 width: '4px',
                 height: '4px',
                 backgroundColor: '#00ff00',
                 border: '2px solid black',
                 borderRadius: '50%',
-                zIndex: '100',
+                zIndex: '100', // End of crosshair apperance editable area
                 pointerEvents: 'none',
                 display: original.style.display,
             });
