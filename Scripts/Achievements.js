@@ -6,6 +6,8 @@
 // @author       Xeltalliv
 // @match        https://narrow.one/
 // @icon         https://www.svgrepo.com/show/448917/achievement.svg
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/Achievements.js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/Achievements.js
 // @grant        unsafeWindow
 // @run-at       doucment-start
 // ==/UserScript==
