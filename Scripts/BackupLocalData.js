@@ -7,6 +7,8 @@
 // @match        https://narrow.one/*
 // @match        https://e2c6282e-13db-47a4-99c8-3297118978c1.poki-gdn.com/*
 // @icon         https://www.svgrepo.com/show/395640/save.svg
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/BackupLocalData.js
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Scripts/BackupLocalData.js
 // @grant        none
 // ==/UserScript==
 
