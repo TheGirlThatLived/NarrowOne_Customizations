@@ -12,52 +12,62 @@
 // @run-at       document-start
 // ==/UserScript==
 
-const isFlagScore = (elem) => elem && elem.classList.contains("flag-score-container");
-const gameWrapperObserver = new MutationObserver((mutationsList) => {
-    for (const mutation of mutationsList) {
-        if (mutation.type === "childList") {
-            const addedNode = mutation.addedNodes[0];
-            const removeNode = mutation.removedNodes[0];
-            if (isFlagScore(addedNode)) {
-                addFlagScore(addedNode);
+(function() {
+    'use strict';
+
+    const isFlagScore = (elem) => elem && elem.classList.contains("flag-score-container");
+    const gameWrapperObserver = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+            if (mutation.type === "childList") {
+                const addedNode = mutation.addedNodes[0];
+                const removeNode = mutation.removedNodes[0];
+                if (isFlagScore(addedNode)) {
+                    addFlagScore(addedNode);
+                }
+                if (isFlagScore(removeNode)) {
+                    removeFlagScore(removeNode);
+                }
+                //console.log('Added', mutation.addedNodes, "Removed", mutation.removedNodes);
             }
-            if (isFlagScore(removeNode)) {
-                removeFlagScore(removeNode);
-            }
-            //console.log('Added', mutation.addedNodes, "Removed", mutation.removedNodes);
         }
+    });
+
+    function addFlagScore(element) {
+        //console.log("Added flag score container");
+        const flagRedSvg = new Image();
+        const flagBlueSvg = new Image();
+        flagRedSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagRed.svg";
+        flagBlueSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagBlue.svg";
+        flagRedSvg.classList.add("flag-score-icon");
+        flagBlueSvg.classList.add("flag-score-icon");
+        element.children[0].children[0].style.display = "none";
+        element.children[0].insertBefore(flagRedSvg, element.children[0].children[0]);
+        element.children[1].children[0].style.display = "none";
+        element.children[1].insertBefore(flagBlueSvg, element.children[1].children[0]);
     }
-});
-gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
-    childList: true
-});
+    function removeFlagScore(element) {
+        //console.log("Removed flag score container");
+    }
 
-function addFlagScore(element) {
-    //console.log("Added flag score container");
-    const flagRedSvg = new Image();
-    const flagBlueSvg = new Image();
-    flagRedSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagRed.svg";
-    flagBlueSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagBlue.svg";
-    flagRedSvg.classList.add("flag-score-icon");
-    flagBlueSvg.classList.add("flag-score-icon");
-    element.children[0].children[0].style.display = "none";
-    element.children[0].insertBefore(flagRedSvg, element.children[0].children[0]);
-    element.children[1].children[0].style.display = "none";
-    element.children[1].insertBefore(flagBlueSvg, element.children[1].children[0]);
-}
-function removeFlagScore(element) {
-    //console.log("Removed flag score container");
-}
-
-// Optional, but looks a bit better
-const css = new CSSStyleSheet;
-css.replaceSync(`
+    // Optional, but looks a bit better
+    const css = new CSSStyleSheet;
+    css.replaceSync(`
 .flag-score-icon {
     width: 64px;
     height: 64px;
     margin: -12px 0px -2px -7px;
 }
 `);
-window.addEventListener("load", function () {
-    document.adoptedStyleSheets = [...document.adoptedStyleSheets, css]
-});
+
+    function init() {
+        gameWrapperObserver.observe(document.getElementById("gameWrapper"), {
+            childList: true
+        });
+        document.adoptedStyleSheets = [...document.adoptedStyleSheets, css];
+    }
+    if (document.readyState == "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+    } else {
+        init();
+    }
+})();
