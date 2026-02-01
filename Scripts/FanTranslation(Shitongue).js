@@ -21,7 +21,7 @@
             translatedCoinCount.setAttribute('data-text-content', 'Shitload');
             translatedCoinCount.textContent = 'Shitload';
         });
-        const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText, .stat-class-tooltip');
+        const translatedButtons = document.querySelectorAll('.main-menu-button-text, button.dialog-button, div.mainInfoText, h3.dialogTitle, span.coin-count-text.blueNight, h2.dialogTitle, .dialogText, .stat-class-tooltip, .playersListTableHeader');
         translatedButtons.forEach(untranslatedButton => {
             switch(untranslatedButton.textContent.trim()) {
                 case 'Click to join':
