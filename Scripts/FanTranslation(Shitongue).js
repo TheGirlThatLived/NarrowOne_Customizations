@@ -149,6 +149,58 @@
                 case 'The connection closed abruptly :(':
                     untranslatedButton.textContent = 'Water spilled outta toilet onto tiled floor :-(';
                     break;
+                    // Scoreboard
+                case 'Team Red':
+                    untranslatedButton.textContent = 'Haemorrhoids';
+                    break;
+                case 'Team Blue':
+                    untranslatedButton.textContent = 'Diarrhea';
+                    break;
+                case 'Flags':
+                    untranslatedButton.textContent = 'Toilets';
+                    break;
+                case 'Kills':
+                    untranslatedButton.textContent = 'Flushed';
+                    break;
+                case 'Deaths':
+                    untranslatedButton.textContent = 'Clogged';
+                    break;
+                case 'Score':
+                    untranslatedButton.textContent = 'Stank';
+                    break;
+                case 'team red won!':
+                    untranslatedButton.textContent = 'Haemorrhoids bursted!';
+                    break;
+                case 'team blue won!':
+                    untranslatedButton.textContent = 'Diarrhea spilled!';
+                    break;
+                case 'Your Game Stats':
+                    untranslatedButton.textContent = 'Piss under the bridge...';
+                    break;
+                case 'Kill':
+                    untranslatedButton.textContent = 'Flush';
+                    break;
+                case 'Assist':
+                    untranslatedButton.textContent = 'Drip';
+                    break;
+                case 'Carrier Kill':
+                    untranslatedButton.textContent = 'Unclogged';
+                    break;
+                case 'Flag Return':
+                    untranslatedButton.textContent = 'Turd bagged';
+                    break;
+                case 'Headshot':
+                    untranslatedButton.textContent = 'Splash';
+                    break;
+                case 'Long Range':
+                    untranslatedButton.textContent = 'Transcending turd';
+                    break;
+                case 'Total':
+                    untranslatedButton.textContent = 'PeePees held';
+                    break;
+                case 'Clain X2':
+                    untranslatedButton.textContent = '';
+                    break;
                     // Loadouts
                 case 'Are you sure you want to delete this preset?':
                     untranslatedButton.textContent = 'Cleaning up?';
