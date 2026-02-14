@@ -20,6 +20,8 @@
         "static/img/hudIcons/flagRed.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagRed.svg",
         "static/img/hudIcons/flagBlue.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagBlue.svg",
         "static/img/hudIcons/playerIcon.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/playerIcon.svg",
+        //"static/img/notificationIcons/gameOver/defeated.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/defeated.svg",
+        //I wanna add it but dunno if it won't break something
     }
     const originalSrcDescriptor = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, "src");
     Object.defineProperty(HTMLImageElement.prototype, "src", {
