@@ -7,8 +7,8 @@
 // @run-at       document-start
 // @match        https://narrow.one/
 // @icon         https://www.svgrepo.com/show/60783/apple.svg
-// @downloadURL  
-// @updateURL    
+// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Styles/CSS-Theme(GlassUI)
+// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/main/Styles/CSS-Theme(GlassUI)
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // ==/UserScript==
