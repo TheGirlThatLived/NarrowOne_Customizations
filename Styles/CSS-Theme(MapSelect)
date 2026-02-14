@@ -1,0 +1,218 @@
+/* Snippet from Lord Graz's Glass UI */
+
+div.map-item {
+    --title-layer-depth: 1;
+    z-index: auto;
+    position: relative;
+    mask: paint(wrinkledPaper);
+    --wrinkled-paper-wrinkle-size: 0px;
+    --wrinkled-paper-tear-count-min: 0;
+    --wrinkled-paper-tear-count-max: 0;
+    border-radius: var(--border-radius-map-item);
+    filter: var(--default-drop-shadow);
+}
+
+div.map-item-thumb-layer {
+    --_m: 3.35544e7;
+    --_u: calc(var(--layer-offset) * var(--_m));
+    --unit: calc(var(--_u) / var(--_m));
+    --unitless-val: tan(atan2(var(--layer-offset), var(--unit)));
+    z-index: var(--unitless-val);
+}
+
+/*div.map-item-thumb-layer:last-child {
+    z-index: 200;
+} */
+
+div.map-item-thumb-layer[style*='narrowDesert/6.webp'] {
+    --layer-offset: -40px !important;
+}
+
+div.map-item-thumb-layer[style*='narrowGatehouse/5.webp'] {
+    translate: -80px -50px;
+}
+
+div.map-item-thumb-layer[style*='narrowFields/4.webp'] {
+    translate: 20px 70px;
+}
+
+div.map-item-thumb-layer[style*='narrowGraveyard/2.webp'] {
+    translate: -5px 0;
+}
+
+div.map-item-thumb-layer[style*='narrowFields/3.webp'] {
+    translate: 7px 0;
+}
+
+button.map-item-join-button {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    z-index: calc(104 - calc(var(--title-layer-depth) * 10));
+    border-radius: var(--border-radius-map-item);
+    transition: background 0.1s ease-in-out;
+}
+
+.map-item-join-button span {
+    filter: blur(1000px);
+}
+
+button.map-item-join-button:hover {
+    background: #0004;
+}
+
+.dialog:has(.maps-container)::before {
+    content: 'map selector';
+    top: 20px;
+    left: 0;
+    font-family: 'BlueNight';
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+div.map-item-thumb {
+    width: 200px;
+    height: 200px;
+    z-index: auto;
+    position: relative;
+    mask: initial;
+    -webkit-mask: initial;
+    filter: initial;
+}
+
+div.maps-container {
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.map-item-title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* z-index: 199; */
+    z-index: calc(105 - calc(var(--title-layer-depth) * 10));
+    pointer-events: none;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    text-shadow: 0 0 10px #0004;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowForts/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowHalls/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowTombs/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowGraveyard/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowArena/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowTowers/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowArch/']) {
+    --title-layer-depth: 4;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowRuins/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowHills/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowJungle/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowWall/']) {
+    --title-layer-depth: 3;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowTemple/']) {
+    --title-layer-depth: 2;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowDesert/']) {
+    --title-layer-depth: 5;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowTribe/']) {
+    --title-layer-depth: 3;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowSnowyStronghold/']) {
+    --title-layer-depth: 0;
+}
+
+div.map-item:has(.map-item-thumb-layer[style*='/config/mapThumbs/narrowMegaParkour/']) {
+    --title-layer-depth: 2;
+}
+
+@property --title-layer-depth {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 1;
+}
+
+div.map-item-thumb-layer:nth-last-child(1) {
+    z-index: 100 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(2) {
+    z-index: 90 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(3) {
+    z-index: 80 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(4) {
+    z-index: 70 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(5) {
+    z-index: 60 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(6) {
+    z-index: 50 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(7) {
+    z-index: 40 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(8) {
+    z-index: 30 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(9) {
+    z-index: 20 !important;
+}
+
+div.map-item-thumb-layer:nth-last-child(10) {
+    z-index: 10 !important;
+}
