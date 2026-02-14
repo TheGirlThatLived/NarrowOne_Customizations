@@ -55,12 +55,12 @@
         healthTextDisplayElement.textContent = Math.round(numericValue);
 
         let color;
-        if (numericValue < 34) {
-            color = "red";
-        } else if (numericValue < 67) {
-            color = "orange";
+        if (numericValue < 38) {
+            color = "ffb3ff";
+        } else if (numericValue < 91) {
+            color = "d9b2ff";
         } else {
-            color = "green";
+            color = "ffffff";
         }
         healthTextDisplayElement.style.color = color;
     }
