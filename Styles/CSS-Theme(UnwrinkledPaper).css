@@ -1,0 +1,40 @@
+/* Xeltalliv's CSS to purge Wrinkled Paper styling from the game */
+.wrinkledPaper,
+#qc-cmp2-ui,
+#qc-cmp2-ui button[mode="primary"],
+#qc-cmp2-ui button[mode="secondary"],
+input.dialog-range-input[type=range],
+input.dialog-range-input[type=range]::-webkit-slider-thumb {
+    background: var(--wrinkled-paper-color);
+    border: calc(1px * var(--wrinkled-paper-border-size)) solid var(--wrinkled-paper-border-color);
+    border-bottom: calc(1px * var(--wrinkled-paper-border-size-bottom, var(--wrinkled-paper-border-size))) solid var(--wrinkled-paper-border-color);
+}
+.wrinkled-paper-mask {
+    mask: unset;
+    -webkit-mask: unset;
+}
+.main-menu-promo-banner {
+    background: center / cover, var(--default-ui-bg-color)
+}
+.playersListContainer > div,
+.playersListTeam > table > thead {
+    background: var(--wrinkled-paper-color) !important;
+    border: calc(1px * var(--wrinkled-paper-border-size)) solid var(--wrinkled-paper-border-color);
+    border-bottom: calc(1px * var(--wrinkled-paper-border-size-bottom, var(--wrinkled-paper-border-size))) solid var(--wrinkled-paper-border-color);
+}
+.wrinkledLine {
+    --wrinkled-line-wrinkle-size: 0px;
+}
+html {
+    --default-drop-shadow: none;
+}
+.map-item-thumb {
+    overflow: hidden;
+    position: relative;
+}
+.map-item > button {
+    z-index: 50;
+}
+.map-item-thumb-layer {
+    animation: none !important;
+}
