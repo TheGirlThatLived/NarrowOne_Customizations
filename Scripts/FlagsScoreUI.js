@@ -36,8 +36,8 @@
         //console.log("Added flag score container");
         const flagRedSvg = new Image();
         const flagBlueSvg = new Image();
-        flagRedSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagRed.svg";
-        flagBlueSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagBlue.svg";
+        flagRedSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagScoreRed.svg";
+        flagBlueSvg.src = "https://github.com/TheGirlThatLived/NarrowOne_Customizations/blob/main/Assets/flagScoreBlue.svg";
         flagRedSvg.classList.add("flag-score-icon");
         flagBlueSvg.classList.add("flag-score-icon");
         element.children[0].children[0].style.display = "none";
