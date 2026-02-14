@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Theme (Violent Glass)
 // @namespace    http://tampermonkey.net/
-// @version      20251023_2230
+// @version      20260214_1048
 // @description  Guest 0187's personalized CSS edits loader.
-// @author       Incredible_Violent; Xeltalliv; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
+// @author       Incredible_Violent; Xeltalliv; Lord Graz; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
 // @match        https://narrow.one/*
 // @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/ViolentGlass.svg
@@ -56,6 +56,7 @@
     // Content
     async function fetchAndApplyCSS() {
         addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css');
+        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(MapSelect).css');
         //addConstructedStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css');
     }
     function fetchAndApplyIMG() {
