@@ -181,11 +181,11 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   filter: saturate(25%) !important;
   opacity: 80% !important !important;
 }
-.flag-score-container, .health-ui-container, .notificationIconsUiContainer.topleft{ /* Centering the HUD */
-  transform-origin: top left !important;
+.flag-score-container, .custom-health-bar-*, .notificationIconsUiContainer.topleft{ /* Centering the HUD */
+  transform-origin: center center !important;
   opacity: 60% !important;
   position: relative !important;
-  top: -20% !important; left: 20% !important;
+  top: 20% !important; left: 40% !important;
 }
 .notificationIconsUiContainer.topleft{ /* Flags status */
   top: 50% !important; left: 32% !important;
@@ -200,6 +200,7 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   
 }
 .flag-score-icon{ /* Flag Score shield icon */
+	
 }
 .health-ui-container.wrinkledPaper{ /* Health Bar box */
   
