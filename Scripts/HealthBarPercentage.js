@@ -55,7 +55,7 @@
         healthTextDisplayElement.textContent = Math.round(numericValue);
 
         let color;
-        if (numericValue < 38) {
+        if (numericValue < 23) {
             color = "ffb3ff";
         } else if (numericValue < 91) {
             color = "d9b2ff";
