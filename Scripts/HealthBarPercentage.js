@@ -56,11 +56,11 @@
 
         let color;
         if (numericValue < 23) {
-            color = "ffb3ff";
+            color = "ffffff";
         } else if (numericValue < 91) {
             color = "d9b2ff";
         } else {
-            color = "ffffff";
+            color = "ffb3ff";
         }
         healthTextDisplayElement.style.color = color;
     }
