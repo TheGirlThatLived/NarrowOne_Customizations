@@ -1,0 +1,64 @@
+// ==UserScript==
+// @name         Theme (Glass UI)
+// @namespace    http://tampermonkey.net/
+// @version      20260124
+// @description  Pure CSS mod that makes the UI feel like glass, loosely inspired by Apple's LiquidGlass theme.
+// @author       Lord Graz
+// @run-at       document-start
+// @match        https://narrow.one/
+// @icon         https://www.svgrepo.com/show/60783/apple.svg
+// @downloadURL  
+// @updateURL    
+// @grant        GM_xmlhttpRequest
+// @grant        GM_addStyle
+// ==/UserScript==
+(function() {
+    'use strict';
+
+    // Set of helper functions
+    const customStylesheets = [];
+    function finalizeApplyingConstructedStylesheets() {
+        window.addEventListener("load", function () {
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, ...customStylesheets];
+        });
+    }
+    function addScriptFromURL(url) {
+        const scriptElement = document.createElement('script');
+        scriptElement.src = url;
+        document.head.appendChild(scriptElement);
+    }
+    function addStyleFromURL(url) {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.href = url;
+        document.body.appendChild(linkElement);
+    }
+    function addStyleFromText(text) {
+        const styleElement = document.createElement('style');
+        styleElement.textContent = text;
+        document.body.appendChild(styleElement);
+    }
+    async function addConstructedStyleFromURL(url) {
+        const response = await fetch(url);
+        const text = await response.text();
+        const css = new CSSStyleSheet();
+        css.replaceSync(text);
+        customStylesheets.push(css);
+    }
+    function addConstructedStyleFromText(text) {
+        const css = new CSSStyleSheet();
+        css.replaceSync(text);
+        customStylesheets.push(css);
+    }
+    // End of helper functions
+
+    // Content
+    async function fetchAndApplyCSS() {
+        //addStyleFromURL('');
+        addConstructedStyleFromURL('https://raw.githubusercontent.com/lord-graz/narrow-one-mods/refs/heads/main/narrowGlass/narrowGlassSharp.css');
+    }
+    // Apply changes
+    fetchAndApplyCSS();
+    // Mandatory end
+    finalizeApplyingConstructedStylesheets();
+})();
