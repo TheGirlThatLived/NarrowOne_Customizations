@@ -62,7 +62,7 @@
     function fetchAndApplyIMG() {
         const imgElement1 = document.createElement('img');
         imgElement1.classList.add('watermark');
-        imgElement1.src = 'https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/ViolentGlass.svg';
+        imgElement1.src = 'https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/violentGlass.svg';
         document.body.appendChild(imgElement1);
         addConstructedStyleFromText(`
         .watermark {
