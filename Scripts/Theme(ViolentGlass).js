@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Theme (Violent Glass)
 // @namespace    http://tampermonkey.net/
-// @version      20260214_1048
+// @version      20260217_0816
 // @description  Guest 0187's personalized CSS edits loader.
 // @author       Incredible_Violent; Xeltalliv; Lord Graz; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
@@ -67,12 +67,12 @@
         addConstructedStyleFromText(`
         .watermark {
             position: fixed;
-            bottom: 3%;
-            right: 0%;
+            bottom: -2%;
+            right: 44.5%;
             z-index: 9999;
             pointer-events: none;
-            width: 14%;
-            height: 14%;
+            width: 11%;
+            height: 11%;
             animation: blinking 60s infinite;
         }
         `);
