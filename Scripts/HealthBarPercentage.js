@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Health Bar Percentage Display
 // @namespace    https://narrow.one/
-// @version      2024-12-16_2200
+// @version      20260218_0018
 // @description  Display a text percentage of current HP bar state (next to the HP bar).
 // @author       Xeltalliv
 // @run-at       document-start
@@ -71,7 +71,7 @@
         healthTextDisplayElement.style.top = "50%";
         healthTextDisplayElement.style.left = "50%";
         healthTextDisplayElement.style.transform = "translate(-50%, -30%)";
-        healthTextDisplayElement.style.color = "red";
+        healthTextDisplayElement.style.color = "ffb3ff";
         healthTextDisplayElement.style.fontWeight = "bold";
         healthTextDisplayElement.classList.add("health-bar-percent");
         element.children[1].append(healthTextDisplayElement);
