@@ -35,9 +35,9 @@
   40% {background-color: rgba(0,0,0,0);}
 }
 @keyframes blinking{
-  0%, 40% {opacity:0.05;}
-  50% {opacity:0.4;}
-  60%, 100% {opacity:0.05;}
+  0%, 40% {opacity:0.2;}
+  50% {opacity:0.85;}
+  60%, 100% {opacity:0.2;}
 }
 @keyframes waveClipPath{
 	0%,
@@ -181,49 +181,45 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   filter: saturate(25%) !important;
   opacity: 80% !important !important;
 }
-.flag-score-container, .custom-health-bar-*, .notificationIconsUiContainer.topleft{ /* Centering the HUD */
-  transform-origin: center center !important;
-  opacity: 60% !important;
-  position: relative !important;
-  top: 20% !important; left: 40% !important;
-}
 .notificationIconsUiContainer.topleft{ /* Flags status */
   top: 50% !important; left: 32% !important;
+  display: none;
 }
 .notificationIconsUiContainer.centerbig{
   opacity: 40% !important;
 }
 .flag-score-container{ /* Flag Score box */
-	
+  transform-origin: center !important;
+  top: 63% !important; left: 31% !important;
+  transform: translate(0%, 100px) !important;
+  opacity: 90% !important;
+}
+.flag-score-icon{ /* Flag Score shield icon */
+  display: none;
 }
 .flag-score-item{ /* Flag Score diamonds */
   
 }
-.flag-score-icon{ /* Flag Score shield icon */
-	
+.health-ui-container{ /* Health Bar box */
+  transform-origin: center !important;
+  top: 62% !important; left: 25% !important;
+  transform: translate(0%, 100px) !important;
 }
-.health-ui-container.wrinkledPaper{ /* Health Bar box */
-  
-}
-div.health-ui-bar-container { /* Health Bar */
+.health-ui-container > div:nth-child(3) { /* Health Bar Perncent support */
   
 }
 .health-ui-heart{ /* Health Bar icon */
   display: hidden;
 }
-.health-ui-container > div:nth-child(3) { /* Health Bar Perncent support */
-  
-}
-.crosshair-container{ /* Crosshair box */
-  
+.crosshair-container{ /* Crosshair box */ 
 }
 .crosshair-line{ /* Crosshair */
   /* display: none; */
 }
-.flagReturnProgressContainer{
+.flagReturnProgressContainer{ /* Flag return progress chart */
   transform-origin: center !important;
   top: 0% !important; left: 0% !important;
-  transform: translate(-15%, 100%) !important;
+  transform: translate(0%, 100px) !important;
   scale: 300% !important;
 }
 
