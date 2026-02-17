@@ -9,7 +9,8 @@ __Demands that start with "(?)"__ are unfinished writings, so shouldn't be consi
 - [ ] 3rd Person Raycasts collide with team-specific colliders causing arrows to fly in wrong directions (https://discord.com/channels/519477170964267008/1275455977268973599/1275455977268973599)
 - [ ] More separate and distinctive audio cues for in-game events. (https://discord.com/channels/519477170964267008/1238898904624402543/1238898904624402543)
 - [ ] Scoreboard: Display timer for ongoing match length (https://discord.com/channels/519477170964267008/1100127426236924064/1100127426236924064)
-  - [ ] and display ping of each player (https://discord.com/channels/519477170964267008/1095050694630842488/1095050694630842488)
+  - [ ] Display ping of each player (https://discord.com/channels/519477170964267008/1095050694630842488/1095050694630842488)
+  - [ ] Average Accuracy column (https://discord.com/channels/519477170964267008/1473178089381957632/1473178089381957632)
 #### Shop
 - [ ] Shop: Move "Arrow" category into "Bow" category - benefits presets, allows for different arrows per bow in same preset (https://discord.com/channels/519477170964267008/1311093312739999844/1311093312739999844)
 - [ ] Shop: New items in shop should receive "NEW!" badges, to disappear after player hovers mouse over them or clicks on them for "confirm purchase" window to appear (not requiring buying). (https://discord.com/channels/519477170964267008/1195365763696042036/1195365763696042036)
