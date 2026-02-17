@@ -79,9 +79,9 @@
     }
     function fetchAndApplyJS() {
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/ImageSubstitution.js');
-        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(ViolentGlass).js');
+        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(ViolentGlass).js'); // Doesn't load half the time
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
-        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/FlagsScoreUI.js');
+        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/FlagsScoreUI.js'); // Broken
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/DotCrosshair.js');
     }
 
