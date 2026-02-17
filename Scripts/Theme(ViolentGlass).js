@@ -6,7 +6,7 @@
 // @author       Incredible_Violent; Xeltalliv; Lord Graz; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
 // @match        https://narrow.one/*
-// @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/ViolentGlass.svg
+// @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/violentGlass.svg
 // @downloadURL  https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/Theme(ViolentGlass).js
 // @updateURL    https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/Theme(ViolentGlass).js
 // @grant        unsafeWindow
