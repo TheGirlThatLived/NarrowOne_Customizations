@@ -1,10 +1,10 @@
- // ==UserScript==
+// ==UserScript==
 // @name         Cyan Liquid Glass by vyrin
 // @namespace    http://tampermonkey.net/
-// @version      1.40
+// @version      1.41
 // @description  A stunning Liquid Glass UI theme with a vibrant Cyan aesthetic for Narrow.one
 // @author       vyrin
-// @match        https://narrow.one/*
+// @match        https://narrow.one/
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -30,7 +30,7 @@
             color: #00ffd0 !important;
         }
         .main-menu-corner-profile .avatar {
-            background-image: url(https://i.ibb.co/twSx3g1z/Logo-of-CN-2.png);
+            background-image: url(https://i.ibb.co/twSx3g1z/Logo-of-CN-2.png    );
             background-size: cover;
             padding: 1.2rem;
             border: 5px solid #b69c09;
@@ -70,7 +70,6 @@
                 0 15px 40px rgba(0, 0, 0, 0.3),
                 0 0 60px rgba(0, 255, 208, 0.2),
                 inset 0 2px 4px rgba(2, 255, 255, 0.6);
-            transform: translateY(-2px);
         }
         .chat-container,
         .chat-container *,
