@@ -55,7 +55,7 @@
     // Content
     async function fetchAndApplyCSS() {
         //addStyleFromURL('');
-        addConstructedStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/refs/heads/testing/Scripts/Theme(Wordington).js');
+        addConstructedStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/refs/heads/main/Scripts/Theme(Wordington).js');
     }
     // Apply changes
     fetchAndApplyCSS();
