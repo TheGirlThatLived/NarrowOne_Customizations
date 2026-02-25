@@ -1,0 +1,49 @@
+/* Vertical UI layout - Move UI elements to screen's vertical edges (by LeopardDesNeiges) */
+.health-ui-container {
+    left: -180px !important;
+    top: 44% !important;
+    margin-top: 10px !important;
+    transform : rotate(270deg) ! important;
+}
+.notificationIconsUiContainer.topleft{
+    top : 250px ;
+    left: 25px ;
+    transform : scale(0.7) ;
+}
+.notificationIconsUiContainer.crosshair{
+    transform : translate(-50%,-50%) scale(5);
+    filter : opacity(30%) ;
+}
+.dialog.wrinkledPaper.weapon-selection-dialog{
+    transform: rotate(90deg) translate(-220px,-280px) scale(0.7);
+}
+.dialog.wrinkledPaper.weapon-selection-dialog.hidden{
+    transform: translate(-220px,-300px) scale(0.7);
+}
+.chat-container{
+    top : 87% ;
+    left : 77% ;
+}
+.chat-container.wrinkledPaper.hidden{
+    display : none;
+}
+.flag-score-container{
+    position : absolute ;
+    top : 60% ;
+    left : 45% ;
+    transform : scale(1.2) ;
+    display : none ;
+}
+.active-gamemode-container{
+    position : absolute ;
+    top : 59% ;
+    left : 41%;
+    display : none;
+}
+.mainInfoText{
+    transform : scale(0.7) !important;
+    filter : opacity(50%);
+}
+.corner-stats-container{
+    filter : opacity(50%);
+}
