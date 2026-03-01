@@ -3,7 +3,7 @@
 // @namespace    https://narrow.one/
 // @version      20241216
 // @description  Disabling Event Listener, so pressing ESC once releases your mouse, and only pressing twice opens the menu
-// @author       Copilot
+// @author       Xeltalliv
 // @run-at       document-start
 // @match        https://narrow.one/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
