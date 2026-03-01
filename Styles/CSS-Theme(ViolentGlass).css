@@ -201,20 +201,26 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   
 }
 .health-ui-container{ /* Health Bar box */
+  /*
   transform-origin: center !important;
   top: 62% !important; left: 25% !important;
   transform: translate(0%, 100px) !important;
+  */
 }
 .health-ui-container > div:nth-child(3) { /* Health Bar Perncent support */
   
 }
 .health-ui-heart{ /* Health Bar icon */
-  display: hidden;
+  /*
+  display: hidden; 
+  */
 }
 .crosshair-container{ /* Crosshair box */ 
 }
 .crosshair-line{ /* Crosshair */
-  /* display: none; */
+  /*
+	display: none;
+  */
 }
 .flagReturnProgressContainer{ /* Flag return progress chart */
   transform-origin: center !important;
