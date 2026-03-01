@@ -189,10 +189,12 @@ div.main-menu-username.whiteBigText { /* Title Screen Username */
   opacity: 40% !important;
 }
 .flag-score-container{ /* Flag Score box */
+  /*
   transform-origin: center !important;
   top: 63% !important; left: 31% !important;
   transform: translate(0%, 100px) !important;
   opacity: 90% !important;
+  */
 }
 .flag-score-icon{ /* Flag Score shield icon */
   display: none;
