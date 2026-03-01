@@ -17,7 +17,7 @@
     const replacementTable = {
         // "static/img/hudIcons/flags/red.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagRed.svg", //Flag-score icon (Red)
         // "static/img/hudIcons/flags/blue.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagBlue.svg", //Flag-score icon (Blue)
-        //"static/img/notificationIcons/gameOver/defeated.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/defeated.svg", //I wanna add it but dunno if it won't break something
+        "static/img/notificationIcons/gameOver/defeated.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/defeated.svg",
         "static/img/hudIcons/flags/red.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagRed.svg", //Flag position indicator (Red)
         "static/img/hudIcons/flags/blue.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagBlue.svg", //Flag position indicator (Blue)
         "static/img/hudIcons/playerIcon.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/playerIcon.svg" //Teammate indicator
