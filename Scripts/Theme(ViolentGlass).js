@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Theme (Violent Glass)
 // @namespace    http://tampermonkey.net/
-// @version      20260217_0816
+// @version      20260301
 // @description  Guest 0187's personalized CSS edits loader.
-// @author       Incredible_Violent; Xeltalliv; Lord Graz; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
+// @author       Incredible_Violent; Xeltalliv; Lord Graz; Shart; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
 // @match        https://narrow.one/*
 // @icon         https://TheGirlThatLived.github.io/NarrowOne_Customizations/Assets/violentGlass.svg
@@ -79,9 +79,8 @@
     }
     function fetchAndApplyJS() {
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/ImageSubstitution.js');
-        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(ViolentGlass).js'); // Doesn't load half the time
-        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
-        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/FlagsScoreUI.js'); // Broken
+        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
+        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(Cross).js');
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/DotCrosshair.js');
     }
 
