@@ -108,7 +108,7 @@ button.dialog-button.blueNight.wrinkledPaper {
   border-radius: 15%;
 }
 .shop-skin-preview { /* Shop skin preview window */
-    background: none;
+    background: none !important;
 }
 .mainInfoText{ /*Click to Join*/
   padding: 0px;
