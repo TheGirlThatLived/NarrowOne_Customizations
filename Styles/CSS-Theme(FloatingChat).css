@@ -1,0 +1,32 @@
+  /* Chat Window */
+.chat-log-container { /* Incoming text messages */
+  font-size: 20pt !important;
+  padding:0px, 0px, 0px, 0px !important;
+  overflow: hidden !important;
+  max-height: min(800px, 50vh) !important;
+  max-width: min(800px, 50vw) !important;
+}
+.chat-container{ /* Chat box */
+  padding:0px, 0px, 0px, 0px !important;
+  background:none !important;
+  position: absolute !important;
+  left: 15% !important;
+  bottom: 25% !important;
+}
+.chat-input { /* Written text */
+ font-size: 20pt !important;
+ padding:0px, 0px, 0px, 0px !important;
+}
+.chat-message-name { /*Message author*/
+  font-size: 15pt !important;
+}
+input::placeholder{ /* Press T to write placeholder text */
+    font-family: Ubuntu !important;
+    font-size: 16px !important;
+    text-transform: capitalize;
+    visibility: hidden;
+}
+.chat-container.wrinkledPaper.up, input.dialog-text-input.wrinkledPaper.chat-input, .chat-message-container, .chat-message-content{
+  padding:0px, 0px, 0px, 0px !important;
+  background:none !important;
+}
