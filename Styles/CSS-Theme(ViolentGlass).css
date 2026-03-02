@@ -107,6 +107,9 @@ button.dialog-button.blueNight.wrinkledPaper {
   background-image: linear-gradient(to bottom right, rgba(0,10,20,0.2), rgba(0,10,90,0.4));
   border-radius: 15%;
 }
+.shop-skin-preview { /* Shop skin preview window */
+    background: none;
+}
 .mainInfoText{ /*Click to Join*/
   padding: 0px;
   margin: 0px;
