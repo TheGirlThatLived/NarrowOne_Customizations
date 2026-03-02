@@ -93,6 +93,12 @@ h3.settings-group-header { /* Settings category separators */
   border: 1px solid black;
   border-radius: 20px;
 }
+button.main-menu-button { /* Main Menu buttons */
+    background: linear-gradient(to bottom right, rgba(100,0,100,0.9), rgba(100,0,100,0.5), rgba(150,0,150,0.9), rgba(150,0,10,1));;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+}
 button.dialog-button.blueNight.wrinkledPaper {
   text-transform: capitalize;
   background-image: linear-gradient(to bottom right, rgba(0,10,20,0.2), rgba(0,10,90,0.4));
