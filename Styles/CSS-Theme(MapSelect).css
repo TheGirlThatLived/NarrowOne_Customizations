@@ -87,7 +87,7 @@ div.map-item-thumb {
 }
 
 div.maps-container {
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
     column-gap: 30px;
     row-gap: 30px;
 }
