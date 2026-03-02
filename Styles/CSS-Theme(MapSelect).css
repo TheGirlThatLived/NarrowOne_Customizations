@@ -1,5 +1,6 @@
 /* Snippet from Lord Graz's Glass UI */
 
+/* Map selctor */
 div.map-item {
     --title-layer-depth: 1;
     z-index: auto;
@@ -215,4 +216,55 @@ div.map-item-thumb-layer:nth-last-child(9) {
 
 div.map-item-thumb-layer:nth-last-child(10) {
     z-index: 10 !important;
+}
+
+/*Preset selector*/
+.dialog-title-header-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.shop-skin-selection-list {
+    display: flex;
+    overflow-x: scroll;
+    max-width: 1420px;
+    scroll-behavior: smooth;
+    flex-wrap: wrap;
+}
+.shop-skin-selection-item {
+    min-height: fit-content;
+    --bg-inset: 20px;
+}
+.shop-skin-selection-image {
+    min-width: 200px;
+    min-height: 300px;
+    clip-path: polygon(85% 20%, 75% 90%, 60% 100%, 30% 100%, 20% 90%, 15% 20%, 50% 10%, 50% 10%);
+}
+button.shop-skin-selection-edit-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(500px) brightness(1);
+    transition: filter 0.3s;
+    transform: none;
+    border-radius: var(--border-radius-presets);
+    box-shadow: none;
+}
+button.shop-skin-selection-edit-button:not(:disabled):hover {
+    background-color: transparent;
+}
+.shop-skin-selection-image:has(+ .shop-skin-selection-edit-button:hover) {
+    filter: brightness(0.9);
+}
+button.corner-delete-button {
+    padding: 10px;
+    top: 65px;
+    right: 15px;
+    scale: 1.3;
+}
+button.shop-skin-selection-list-add-button {
+    margin-left: 10%;
+    margin-right: 50%;
 }
