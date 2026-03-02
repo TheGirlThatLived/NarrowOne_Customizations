@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Theme (Violent Glass)
 // @namespace    http://tampermonkey.net/
-// @version      20260301
+// @version      20260302_0231
 // @description  Guest 0187's personalized CSS edits loader.
 // @author       Incredible_Violent; Xeltalliv; Lord Graz; Shart; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
@@ -55,8 +55,10 @@
 
     // Content
     async function fetchAndApplyCSS() {
-        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css');
-        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(MapSelect).css');
+        // Here, you can delete lines with links to functions you don't want.
+        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css'); // Stained glass on windows and buttons, hiding unnecessary elements and many more.
+        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(MapSelect).css'); // Wider selection screens for maps and shop prsesets.
+        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(FloatingChat).css'); // Wider chat box without background.
         //addConstructedStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css');
     }
     function fetchAndApplyIMG() {
@@ -78,10 +80,11 @@
         `);
     }
     function fetchAndApplyJS() {
-        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/ImageSubstitution.js');
+        // Here, you can delete lines with links to functions you don't want.
+        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/ImageSubstitution.js'); // Custom icon indicators
         // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
-        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(Cross).js');
-        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/DotCrosshair.js');
+        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(Cross).js'); // Alternative health bar combined with flag score
+        addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/DotCrosshair.js'); // Green dot crosshair
     }
 
     // Apply changes
