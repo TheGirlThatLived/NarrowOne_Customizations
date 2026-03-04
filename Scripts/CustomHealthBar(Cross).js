@@ -6,8 +6,8 @@
 // @author       Shart (code); Guest 0187 (design)
 // @match        https://*.narrow.one/*
 // @icon         https://www.marefa.org/w/images/4/48/Team_Fortress_2_style_logo.svg
-// @downloadURL  https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/testing/Scripts/CustomHealthBar(Cross).js
-// @updateURL    https://raw.githubusercontent.com/TheGirlThatLived/NarrowOne_Customizations/refs/heads/testing/Scripts/CustomHealthBar(Cross).js
+// @downloadURL  https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(Cross).js
+// @updateURL    https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(Cross).js
 // @grant        GM_addStyle
 // @run-at       document-start
 // ==/UserScript==
