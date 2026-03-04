@@ -57,7 +57,7 @@
     async function fetchAndApplyCSS() {
         // Here, you can delete lines with links to functions you don't want.
         addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css'); // Stained glass on windows and buttons, hiding unnecessary elements and many more.
-        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(MapSelect).css'); // Wider selection screens for maps and shop prsesets.
+        addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(StretchedGrids).css'); // Wider selection screens for maps and shop prsesets.
         addStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(FloatingChat).css'); // Wider chat box without background.
         //addConstructedStyleFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Styles/CSS-Theme(ViolentGlass).css');
     }
