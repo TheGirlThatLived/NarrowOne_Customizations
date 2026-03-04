@@ -1,4 +1,4 @@
-/* Snippet from Lord Graz's Glass UI */
+/* Snippet from Lord Graz's Glass UI, but also stretched by me in a very sloppy way, not recommended for small screens (under 1080p) */
 
 /* Map selctor */
 div.map-item {
@@ -263,6 +263,15 @@ button.corner-delete-button {
     top: 65px;
     right: 15px;
     scale: 1.3;
+}
+/* Shop */
+.shop-items-grid-view {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, 100px 100px 100px 100px 100px) !important;
+}
+.shop-paged-view-container {
+    width: 565px !important;
+    height: 805px !important;
 }
 button.shop-skin-selection-list-add-button {
     margin-left: 10%;
