@@ -132,14 +132,6 @@ h3.dialogTitle.blueNight { /* Class names */
   text-transform: capitalize;
   animation: wobbling 1s ease-in-out infinite;
 }
-.shop-items-grid-view {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fit, 100px 100px 100px 100px 100px) !important;
-}
-.shop-paged-view-container {
-    width: 565px !important;
-    height: 805px !important;
-}
 .shop-skin-preview { /* Shop skin preview window */
     background: none !important;
 }
