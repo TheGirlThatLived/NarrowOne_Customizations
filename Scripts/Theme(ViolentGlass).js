@@ -82,7 +82,7 @@
     function fetchAndApplyJS() {
         // Here, you can delete lines with links to functions you don't want.
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/ImageSubstitution.js'); // Custom icon indicators
-        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js');
+        // addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/HealthBarPercentage.js'); // Add text display of health points to existing HP bar
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/CustomHealthBar(Cross).js'); // Alternative health bar combined with flag score
         addScriptFromURL('https://TheGirlThatLived.github.io/NarrowOne_Customizations/Scripts/DotCrosshair.js'); // Green dot crosshair
     }
