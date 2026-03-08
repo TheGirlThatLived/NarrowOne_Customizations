@@ -1,7 +1,9 @@
 <h2 align="center">
   Narrow One Customizations
 
-  [![YouTube Channel](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/@incredibleviolent?sub_confirmation=1) | [![LordGraz](https://img.shields.io/badge/NarrowGlass-by%20Lord%20Graz-brown)](https://github.com/lord-graz/narrow-one-mods) | [![Talent7](https://img.shields.io/badge/More%20Customizations-8A2BE2)](https://github.com/Talent7-source/GameMods)
+  [![YouTube Channel](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/@incredibleviolent?sub_confirmation=1) | [![LordGraz](https://img.shields.io/badge/NarrowGlass-by%20Lord%20Graz-brown)](https://github.com/lord-graz/narrow-one-mods)
+  
+  [![Xeltalliv](https://img.shields.io/badge/ReplayMod-by%20Xeltallv-cyan)](https://github.com/Xeltalliv/n1-replay-mod/blob/main/) | [![Talent7](https://img.shields.io/badge/More%20Customizations-8A2BE2)](https://github.com/Talent7-source/GameMods)
 
   [![Discord](https://img.shields.io/discord/855173611409506334?label=Discord&logo=discord&logoColor=FFFFFF&style=for-the-badge)](https://discord.com/invite/j8jnjWx9Uc)
 </h2>
