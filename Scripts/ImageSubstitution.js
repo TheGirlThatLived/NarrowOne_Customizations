@@ -15,7 +15,7 @@
     'use strict';
 
     const replacementTable = {
-        /* List of all replaceable vector art
+        /* List of all replaceable vector art for https://Narrow.One
         "static/favicon.svg": "", //Icon of the tab in webbrowser
         "static/arrow.svg": "",
         "static/coin.svg": "",
