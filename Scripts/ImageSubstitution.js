@@ -53,7 +53,7 @@
 
         "static/img/hudIcons/flags/blue.svg": "", //Flag position indicator (Blue)
         "static/img/hudIcons/flags/red.svg": "", //Flag position indicator (Red)
-        "static/img/hudIcons/playerIcon.svg": "" //Teammate indicator
+        "static/img/hudIcons/playerIcon.svg": "", //Teammate indicator
 
         "static/img/notificationIcons/crosshair/kill.svg": "",
         "static/img/notificationIcons/crosshair/killed.svg": "",
@@ -103,7 +103,7 @@
         */
         "static/img/hudIcons/flags/red.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagRed.svg", //Flag position indicator (Red)
         "static/img/hudIcons/flags/blue.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/flagBlue.svg", //Flag position indicator (Blue)
-        "static/img/hudIcons/playerIcon.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/playerIcon.svg" //Teammate indicator
+        "static/img/hudIcons/playerIcon.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/playerIcon.svg", //Teammate indicator
         "static/img/notificationIcons/crosshair/killed.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/killed.svg",
         "static/img/notificationIcons/gameOver/defeated.svg": "https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/defeated.svg",
     }
