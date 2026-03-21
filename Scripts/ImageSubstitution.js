@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image substitution
 // @namespace    http://tampermonkey.net/
-// @version      20241217_1644
+// @version      20260321_2316
 // @description  Hot-swap image assets on any website (general purpose)
 // @author       Xeltalliv
 // @match        https://narrow.one/*
