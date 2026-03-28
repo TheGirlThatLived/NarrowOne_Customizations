@@ -18,7 +18,7 @@
     // Images shown here are provided as example
     // Empty strings = keep as is
     const mappingsFromTo = {
-        'url("static/img/notificationIcons/crosshair/kill.svg")': '',
+        'url("static/img/notificationIcons/crosshair/kill.svg")': 'url("https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/kill.svg")',
         'url("static/img/notificationIcons/crosshair/killed.svg")': 'url("https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/killed.svg")',
 
         'url("static/img/notificationIcons/flag/red/capture.svg")': '',
