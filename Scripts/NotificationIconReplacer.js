@@ -18,8 +18,8 @@
     // Images shown here are provided as example
     // Empty strings = keep as is
     const mappingsFromTo = {
-        'url("static/img/notificationIcons/crosshair/kill.svg")': 'url("https://www.svgrepo.com/show/308893/sword-conflict-war-violence.svg")',
-        'url("static/img/notificationIcons/crosshair/killed.svg")': 'url("https://www.svgrepo.com/show/481821/grave-1.svg")',
+        'url("static/img/notificationIcons/crosshair/kill.svg")': '',
+        'url("static/img/notificationIcons/crosshair/killed.svg")': 'url("https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/killed.svg")',
 
         'url("static/img/notificationIcons/flag/red/capture.svg")': '',
         'url("static/img/notificationIcons/flag/red/drop.svg")': '',
@@ -30,7 +30,7 @@
         'url("static/img/notificationIcons/flag/blue/grab.svg")': '',
         'url("static/img/notificationIcons/flag/blue/return.svg")': '',
 
-        'url("static/img/notificationIcons/gameOver/defeated.svg")': '',
+        'url("static/img/notificationIcons/gameOver/defeated.svg")': 'url("https://thegirlthatlived.github.io/NarrowOne_Customizations/Assets/defeated.svg")',
         'url("static/img/notificationIcons/gameOver/gameEnded.svg")': '',
         'url("static/img/notificationIcons/gameOver/victory.svg")': '',
     };
