@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Theme (Violent Glass)
 // @namespace    http://tampermonkey.net/
-// @version      20260302_0231
+// @version      20260328_1743
 // @description  Guest 0187's personalized CSS edits loader.
 // @author       Incredible_Violent; Xeltalliv; Lord Graz; Shart; Pratik; Systummm; Ansy; Blazyst; Riptide; Razgriz; PING 18
 // @run-at       document-start
