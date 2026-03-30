@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fan Translation (Shitongue)
 // @namespace    http://tampermonkey.net/
-// @version      20260205_1913
+// @version      20260330_2253
 // @description  Translating menu buttons
 // @author       Guest 0187; Lord Graz
 // @run-at       document-start
@@ -32,10 +32,19 @@
                 case 'Click to join':
                     untranslatedButton.nodeValue = 'Shit in Play';
                     break;
-                case 'Press T to chat with your squad':
-                    untranslatedButton.nodeValue = 'Activate Windows';
-                    break;
                     // Main Menu buttons
+                case 'Yes':
+                    untranslatedButton.nodeValue = 'Come on!';
+                    break;
+                case 'No':
+                    untranslatedButton.nodeValue = '(farts & defecates)';
+                    break;
+                case 'ok':
+                    untranslatedButton.nodeValue = 'Pants Pullup';
+                    break;
+                case 'Cancel':
+                    untranslatedButton.nodeValue = 'Shitcel';
+                    break;
                 case 'Settings':
                     untranslatedButton.nodeValue = 'Shittings';
                     break;
@@ -76,6 +85,18 @@
                     untranslatedButton.nodeValue = 'Shitting Club';
                     break;
                     // Match dialogs
+                case 'Exit':
+                    untranslatedButton.nodeValue = 'Close the lid';
+                    break;
+                case 'stay in game':
+                    untranslatedButton.nodeValue = 'Imma fart some more';
+                    break;
+                case 'Press T to chat with your squad':
+                    untranslatedButton.nodeValue = 'Activate Windows';
+                    break;
+                case 'Type to chat with your squad':
+                    untranslatedButton.nodeValue = 'Activate Windows';
+                    break;
                 case 'Are you sure?':
                     untranslatedButton.nodeValue = 'Shat yourself?';
                     break;
@@ -85,20 +106,11 @@
                 case 'You are the squad leader so all members will exit this match too. No one will earn any coins from this match.':
                     untranslatedButton.nodeValue = 'Pissed your pants maybe in front of the whole squatters class?';
                     break;
-                case 'Exit':
-                    untranslatedButton.nodeValue = 'Close the lid';
-                    break;
-                case 'stay in game':
-                    untranslatedButton.nodeValue = 'Imma fart some more';
-                    break;
                 case 'Connection closed':
                     untranslatedButton.nodeValue = 'Toilet Flushed';
                     break;
                 case 'You have been kicked for being afk for too long.':
                     untranslatedButton.nodeValue = 'Janitor kicked you out for clogging the pipe.';
-                    break;
-                case 'ok':
-                    untranslatedButton.nodeValue = 'Pants Pullup';
                     break;
                 case 'Squad not found':
                     untranslatedButton.nodeValue = 'Toilet Demolished';
@@ -108,27 +120,6 @@
                     break;
                 case 'Do you want to leave the current match?':
                     untranslatedButton.nodeValue = '(you hear someone knocking on your stall door...)';
-                    break;
-                case 'Yes':
-                    untranslatedButton.nodeValue = 'Come on!';
-                    break;
-                case 'No':
-                    untranslatedButton.nodeValue = '(farts & defecates)';
-                    break;
-                case 'Ad failed to load':
-                    untranslatedButton.nodeValue = 'Ass failed to unload';
-                    break;
-                case 'An error occurred while trying to load the ad.':
-                    untranslatedButton.nodeValue = 'You"re supposed to PUSH it out, not the other way around!';
-                    break;
-                case 'Confirm your purchase':
-                    untranslatedButton.nodeValue = 'Firmshit your shitchase';
-                    break;
-                case 'Cancel':
-                    untranslatedButton.nodeValue = 'Shitcel';
-                    break;
-                case 'Get Item':
-                    untranslatedButton.nodeValue = 'Gethit Shitem';
                     break;
                 case 'Invite someone':
                     untranslatedButton.nodeValue = 'Pass Toilet Paper';
@@ -154,6 +145,22 @@
                 case 'The connection closed abruptly :(':
                     untranslatedButton.nodeValue = 'Water spilled outta toilet onto tiled floor :-(';
                     break;
+                case 'Cheats detected. (code':
+                    untranslatedButton.nodeValue = 'Fecal matter in the bed detected. (Turds:';
+                    break;
+                case 'Final warning':
+                    untranslatedButton.nodeValue = 'Shit hits the fan!';
+                    break;
+                case 'You have been temporarily banned, please try again later.':
+                    untranslatedButton.nodeValue = 'Clean up your bed!';
+                    break;
+                case 'Your version is out of date, update your client in order to play online.':
+                    untranslatedButton.nodeValue = 'NEW JAPANESSE TOILET IN YOUR AREA';
+                    break;
+                case 'Update now':
+                    untranslatedButton.nodeValue = 'BUY NOW';
+                    break;
+
                     // Scoreboard
                 case 'team red':
                     untranslatedButton.nodeValue = 'Haemorrhoids';
@@ -255,6 +262,18 @@
                     break;
                 case 'Rewarded':
                     untranslatedButton.nodeValue = 'Cheapstakes';
+                    break;
+                case 'Confirm your purchase':
+                    untranslatedButton.nodeValue = 'Firmshit your shitchase';
+                    break;
+                case 'Get Item':
+                    untranslatedButton.nodeValue = 'Gethit Shitem';
+                    break;
+                case 'Ad failed to load':
+                    untranslatedButton.nodeValue = 'Ass failed to unload';
+                    break;
+                case 'An error occurred while trying to load the ad.':
+                    untranslatedButton.nodeValue = 'You"re supposed to PUSH it out, not the other way around!';
                     break;
                     // Shop: Looks
                 case 'Skin color':
